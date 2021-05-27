@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Raleway:wght@400;700&display=swap');
+@import "./variable.scss";
+@import "./PagePresentation.scss";
+@import "./PageServices.scss";
+
+
+.grostest {
+    position: relative;
+    background-color: red;
+    color: yellow;
+    margin-top: 15vh;
+}
+.grostest2 {
+    position: relative;
+    background-color: grey;
+    margin : 15px;
+}
+* {
+    margin : 0;
+    padding : 0;
+    top : 0;
+    right : 0;
+    font-family: 'raleway';
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: $textPrimaire;
+    &:hover, &:focus {
+        text-decoration: none;
+        color: $textPrimaire;
+    }
+}
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+.localeChange {
+    background-color: $secondaire;
+    position : fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    min-height : 60px;
+    z-index: 100;
+    select {
+    position : fixed;
+    top: 1vh;
+    margin-right: 10px;
+     font-size: 20px;
+     color: $textPrimaire;
+     background-color: transparent;
+     border: none;     
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     option {
+         background-color: $secondaire;
+     }
+
+    }
+}
+.headbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding : 20px ;
+    padding-top: 5vh;
+    a {
+        margin : 5px;
+        color: $textSecondaire;
+        -webkit-text-stroke: 1px $textPrimaire;
+        font-size: 24px !important;
+        text-transform: uppercase;
+    }
+}
+.pageHauteur {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
