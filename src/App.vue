@@ -3,6 +3,7 @@
     <div class="d-flex">
       <PagePresentation />
       <PageServices />
+      <PageAbout />
     </div>
     <LocaleChange />
   </div>
@@ -15,6 +16,7 @@ import HelloI18n from "./components/HelloI18n.vue";
 import LocaleChange from "./components/LocaleChange.vue";
 import PagePresentation from "./components/PagePresentation.vue";
 import PageServices from "./components/PageServices.vue";
+import PageAbout from "./components/PageAbout.vue";
 
 @Component({
   components: {
@@ -23,6 +25,7 @@ import PageServices from "./components/PageServices.vue";
     LocaleChange,
     PagePresentation,
     PageServices,
+    PageAbout,
   },
 })
 export default class App extends Vue {}
