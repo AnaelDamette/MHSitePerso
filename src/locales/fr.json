@@ -1,5 +1,8 @@
 {
   "message": "Salut le monde i18n !!",
   "textLogo": "Traduction à rajouter",
-  "presentationTraduction": "Traduction à rajouter"
+  "presentationTraduction": "Traduction à rajouter",
+  "titreContact" : "Le titre est à traduire aussi",
+  "getInTouch" : "Get in touche en Français !",
+  "Ducoup" : "tu messages à traduire"
 }

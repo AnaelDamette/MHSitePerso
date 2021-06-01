@@ -3,7 +3,8 @@
 @import "./PagePresentation.scss";
 @import "./PageServices.scss";
 @import "./PageAbout.scss";
-
+@import "./PageContact.scss";
+@import "./locomotive-scroll.scss";
 
 
 .grostest {
@@ -24,6 +25,7 @@
     right : 0;
     font-family: 'raleway';
     font-size: 20px;
+    color: $textPrimaire;
 }
 a {
     text-decoration: none;

@@ -1,5 +1,8 @@
 {
   "message": "Hello World i18n !!",
   "textLogo": "My words to give you a voice",
-  "presentationTraduction": "Translate your texts from English, Spanish and Romanian into French"
+  "presentationTraduction": "Translate your texts from English, Spanish and Romanian into French",
+  "titreContact" : "Need more information ? Want to request a quote ?",
+  "getInTouch" : "Get in touch !",
+  "Ducoup" : "tu messages à traduire"
 }

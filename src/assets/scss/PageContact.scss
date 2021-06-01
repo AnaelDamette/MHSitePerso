@@ -1,0 +1,57 @@
+.titreCentre {
+font-size: 3.5vw;
+justify-content: center;
+align-items: center;
+margin: 2vw;
+}
+.testBackground {
+    background-color: white;
+    margin: 15px;
+    border-radius: 1em;
+    max-height: 94%;
+}
+.carteContact {
+    background-color: #B698B7;
+    border-radius: 1em;
+    height: 60vh;
+    margin: 2vw;
+    justify-content: space-around;  
+    
+
+}
+.titreCarteContact {
+    color: $primaire;
+    font-size: 5.5vw;
+    margin-bottom: 6vh;
+    font-family: 'Clicker Script';
+}
+
+.logoContact {
+    height: 100%;
+    width: 50%;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+
+.lienContact {
+    padding: 5px;
+    p {
+        font-family: 'Clicker Script';
+    }
+    p, i {
+        color: $primaire;
+        font-size: 3vw;
+    }
+    a {
+        align-items: center;
+    }
+}
+
+.borderRonde {
+    border: solid 2px $primaire;
+    border-radius: 50%;
+}
