@@ -1,8 +1,117 @@
 {
   "message": "Hello World i18n !!",
-  "textLogo": "My words to give you a voice",
-  "presentationTraduction": "Translate your texts from English, Spanish and Romanian into French",
-  "titreContact" : "Need more information ? Want to request a quote ?",
-  "getInTouch" : "Get in touch !",
-  "Ducoup" : "tu messages à traduire"
+  "acceuil": {
+    "acceuil": "Home",
+    "textLogo": "My words to give you a voice",
+    "presentationTraduction": "Translate your texts from English, Spanish and Romanian into French"
+  },
+  "service": {
+    "service": "services",
+    "titreService": "Why working with me ?",
+    "listPourquoiTravailler": {
+      "1": "Direct contact with your translator will ensure you reactivity, efficiency and cost control",
+      "2": "I guarantee quality translations that take into account your precise expectations",
+      "3": "Your projects will be carried out in a timely manner",
+      "4": "i will put my experience and passion in the service of the cause that drive you"
+    },
+    "traductionList": {
+      "titre": "Translate your documents, apps, brochures, books, website, educational materials ... into French.",
+      "1": "Native translator",
+      "2": "MA in Translation",
+      "3": "Cros-cultural sensitivity"
+    },
+    "soustitreList": {
+      "titre": "Subtitle your audiovisual contents (Youtube channel, webseries, TV program ...)",
+      "1": "Cultural adaptation",
+      "2": "Compliance with the requirements",
+      "3": "Professionalism"
+    },
+    "correctionList": {
+      "titre": "Proofread yoru French content and adapt it to your target audience. Don't let a miistake ruin your project !",
+      "1": "Deep knowledge of the French language and culture",
+      "2": "Ensure the quality of your content"
+    }
+  },
+  "temoignage": {
+    "temoignage": "testimonials",
+    "listeTemoignage": {
+      "temoignage_1": {
+        "titre": "",
+        "texte": "Marina Hantz is the French translator of the smartphone and tablet app \"Christmas Carols+\". With great dedication she worked into the linguistic field of new media as well as music. I appreciate the personal commitment in handling hermeneutic questions. The kind correspondence was a pleasure for me. Thank you very much!"
+      },
+      "temoignage_2": {
+        "titre": "",
+        "texte": ""
+      },
+      "temoignage_3": {
+        "titre": "",
+        "texte": ""
+      }
+    }
+  },
+
+  "about" : {
+    "about" : "about",
+    "titre" : {
+      "hello" : "Hello",
+      "enchantee" : "nice to meet you !"
+    },
+    "texte" : {
+      "maj" : {
+        "marina": "Marina",
+        "traductionPays" : {
+          "anglais" : "English",
+          "espagnols" : "Spanish",
+          "romanian" : "Romanian",
+          "francais" : "Français"
+        },
+        "et" : "and",
+        "international" : "international development",
+        "art" : {
+          "art" : "art",
+          "musicienne" : "musician",
+          "danse" : "dancer", 
+          "artiste" : "amateur artist, "
+        },
+        "contact" : {
+          "contact" : "contact me!",
+          "savoirPlus" : "know more",
+          "demandeDevis" : "request a quote"
+        }
+      },
+      "p1" : {
+        "myname" : "My name is",
+        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
+        "into" : "into ",
+        "specialiste" : "I specialise in",
+        "etMin" : "and",
+        "parenthese" : "(especially music and dance",
+        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
+      },
+      "p2" : {
+        "profession" : "I have Chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
+        "iAm" : "I am a ",
+        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
+        "parentheseDance" : "(i have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
+        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
+      },
+      "p3" : {
+        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
+      },
+
+      "p4" : {
+        "would" : "Would you like to ",
+        "orTo" : "Or to ",
+        "hesitate" : "Don't hesite to"
+      }     
+    }
+  },
+
+
+
+  "titreContact": "Need more information ? Want to request a quote ?",
+  "getInTouch": "Get in touch !",
+  "Ducoup": "tu messages à traduire",
+  "bonjour": "Hello, ",
+  "enchanter": "nice to meet you"
 }

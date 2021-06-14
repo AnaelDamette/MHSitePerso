@@ -1,8 +1,122 @@
 {
   "message": "Salut le monde i18n !!",
-  "textLogo": "Traduction à rajouter",
-  "presentationTraduction": "Traduction à rajouter",
+
+  "acceuil": {
+    "acceuil" : "Acceuil",
+    "textLogo": "Mes mots pour vous donner une voix",
+    "presentationTraduction": "Traduction professionnelle de l’espagnol, de l’anglais et du roumain vers le français."
+  },
+
+  "service": {
+    "service" : "services",
+    "titreService" : "Pourquoi travailler avec moi ?",
+    "listPourquoiTravailler" : {
+      "1" : "Le contact direct avec votre traducteur vous assure réactivité, efficacité et maîtrise des coûts.",
+      "2" : "Je vous garantis des traductions de qualité qui tiennent compte de vos attentes précises ",
+      "3" : "Vos projets seront réalisés dans les délais impartis",
+      "4" : "Je mettrai mon expérience et ma passion au service des causes qui vous animent"
+    },
+    "traductionList" : {
+      "titre": "Traduisez vos documents, applications, brochures, livres, sites web, matériel pédagogique ... en français.",
+      "1" : "Traductrice native",
+      "2" : "Master en traduction",
+      "3" : "Diplôme en formation musicale",
+      "4" : "Sensibilité interculturelle"
+    },
+    "soustitreList" : {
+      "titre" : "Sous-titrez vos contenus audiovisuels (chaîne Youtube, websérie, programme TV...)",
+      "1" : "Adaptation culturelle",
+      "2" : "Respect des exigences",
+      "3" : "Professionnalisme"
+    },
+    "correctionList" : {
+      "titre" : "Faites corriger votre contenu en français et adaptez-le à votre public cible. Ne laissez pas une erreur gâcher votre projet !",
+      "1" : "Connaissance approfondie de la langue et de la culture françaises",
+      "2" : "Garantie de la qualité de votre contenu"
+    }
+  },
+
+
+  "temoignage": {
+    "temoignage": "témoignages",
+    "listeTemoignage": {
+      "temoignage_1": {
+        "titre": "Traduction Christmas Carols+",
+        "texte": "Marina Hantz est la traductrice française de l'application pour smartphone et tablette \"Christmas Carols+\". Avec un grand dévouement, elle a travaillé dans le domaine linguistique des nouveaux médias ainsi que de la musique. J'apprécie son engagement personnel dans le traitement des questions herméneutiques. Notre correspondance a été un plaisir pour moi. Merci beaucoup !"
+      },
+      "temoignage_2": {
+        "titre": "",
+        "texte": ""
+      },
+      "temoignage_3": {
+        "titre": "",
+        "texte": ""
+      }
+    }
+  },
+
+  "about" : {
+    "about" : "A propos",
+    "titre" : {
+      "hello" : "Hello",
+      "enchantee" : "nice to meet you !"
+    },
+    "texte" : {
+      "maj" : {
+        "marina": "Marina",
+        "traductionPays" : {
+          "anglais" : "English",
+          "espagnols" : "Spanish",
+          "romanian" : "Romanian",
+          "francais" : "Français"
+        },
+        "et" : "and",
+        "international" : "international development",
+        "art" : {
+          "art" : "art",
+          "musicienne" : "musician",
+          "danse" : "dancer", 
+          "artiste" : "amateur artist, "
+        },
+        "contact" : {
+          "contact" : "contact me!",
+          "savoirPlus" : "know more",
+          "demandeDevis" : "request a quote"
+        }
+      },
+      "p1" : {
+        "myname" : "My name is",
+        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
+        "into" : "into ",
+        "specialiste" : "I specialise in",
+        "etMin" : "and",
+        "parenthese" : "(especially music and dance",
+        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
+      },
+      "p2" : {
+        "profession" : "I have Chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
+        "iAm" : "I am a ",
+        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
+        "parentheseDance" : "(i have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
+        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
+      },
+      "p3" : {
+        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
+      },
+
+      "p4" : {
+        "would" : "Would you like to ",
+        "orTo" : "Or to ",
+        "hesitate" : "Don't hesite to"
+      }     
+    }
+  },
+
+
   "titreContact" : "Le titre est à traduire aussi",
   "getInTouch" : "Get in touche en Français !",
-  "Ducoup" : "tu messages à traduire"
+  "Ducoup" : "tu messages à traduire",
+  "bonjour" : "Bonjour, ",
+  "enchanter" : "Enchanté"
+
 }

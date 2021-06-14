@@ -1,10 +1,122 @@
 {
   "message": "Traduction à rajouter",
-  "textLogo": "Traduction à rajouter",
-  "presentationTraduction": "Traduction à rajouter",
+  "acceuil": {
+    "acceuil" : "INICIO",
+    "textLogo": "Mis palabras para darles voz",
+    "presentationTraduction": "Traduzca sus textos del inglés, español y rumano al francés"
+  },
+
+  "service": {
+    "service" : "SERVICIOS",
+    "titreService" : "¿Por qué trabajar conmigo?",
+    "listPourquoiTravailler" : {
+      "1" : "El contacto directo con su traductor le asegura reactividad, eficacia y control de costes",
+      "2" : "Le garantizo traducciones de calidad que tienen en cuenta sus expectativas precisas",
+      "3" : "Sus proyectos se llevarán a cabo de manera puntual",
+      "4" : "Pondré mi experiencia y mi pasión al servicio de las causas que le impulsan"
+    },
+    "traductionList" : {
+      "titre": "Traducción de sus documentos, aplicaciones, folletos, libros, sitios web, materiales educativos... al francés.",
+      "1" : "Traductora nativa",
+      "2" : "Máster en Traducción",
+      "3" : "Formación académica en música",
+      "4" : "Sensibilidad intercultural"
+    },
+    "soustitreList" : {
+      "titre" : "Subtitulación de sus contenidos audiovisuales (canal de Youtube, webserie, programa de televisión...)",
+      "1" : "Adaptación cultural",
+      "2" : "Cumplimiento de los requisitos",
+      "3" : "Profesionalidad"
+    },
+    "correctionList" : {
+      "titre" : "Compruebe su contenido en francés y adáptelo a su público objetivo. ¡No deje que un error arruine su proyecto!",
+      "1" : "Profundo conocimiento de la lengua y la cultura francesas",
+      "2" : "Asegure la calidad de su contenido"
+    }
+  },
+
+
+  "temoignage": {
+    "temoignage": "testimonios",
+    "listeTemoignage": {
+      "temoignage_1": {
+        "titre": "",
+        "texte": "Marina Hantz es la traductora al francés de la aplicación para smartphones y tabletas \"Christmas Carols+\". Con gran dedicación ha trabajado en el campo lingüístico de los nuevos medios de comunicación, así como en el de la música. Aprecio el compromiso personal en el tratamiento de las cuestiones hermenéuticas. La amable correspondencia fue un placer para mí. Muchas gracias."
+      },
+      "temoignage_2": {
+        "titre": "",
+        "texte": ""
+      },
+      "temoignage_3": {
+        "titre": "",
+        "texte": ""
+      }
+    }
+  },
+
+  "about" : {
+    "about" : "SOBRE MI",
+    "titre" : {
+      "hello" : "Hello",
+      "enchantee" : "nice to meet you !"
+    },
+    "texte" : {
+      "maj" : {
+        "marina": "Marina",
+        "traductionPays" : {
+          "anglais" : "English",
+          "espagnols" : "Spanish",
+          "romanian" : "Romanian",
+          "francais" : "Français"
+        },
+        "et" : "and",
+        "international" : "international development",
+        "art" : {
+          "art" : "art",
+          "musicienne" : "musician",
+          "danse" : "dancer", 
+          "artiste" : "amateur artist, "
+        },
+        "contact" : {
+          "contact" : "contact me!",
+          "savoirPlus" : "know more",
+          "demandeDevis" : "request a quote"
+        }
+      },
+      "p1" : {
+        "myname" : "My name is",
+        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
+        "into" : "into ",
+        "specialiste" : "I specialise in",
+        "etMin" : "and",
+        "parenthese" : "(especially music and dance",
+        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
+      },
+      "p2" : {
+        "profession" : "I have Chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
+        "iAm" : "I am a ",
+        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
+        "parentheseDance" : "(i have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
+        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
+      },
+      "p3" : {
+        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
+      },
+
+      "p4" : {
+        "would" : "Would you like to ",
+        "orTo" : "Or to ",
+        "hesitate" : "Don't hesite to"
+      }     
+    }
+  },
+
+
   "titreContact" : "Le titre est à traduire en Espagnols",
 
   "getInTouch" : "Get in touch en espagnols !",
   
-  "Ducoup" : "tu messages test traduire"
+  "Ducoup" : "tu messages test traduire",
+  "bonjour" : "Bonjour, ",
+  "enchanter" : "nice to meet you"
 }

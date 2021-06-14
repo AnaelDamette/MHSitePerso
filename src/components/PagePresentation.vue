@@ -2,9 +2,9 @@
   <div class="d-flex center pageHauteur">
     <figure class="d-flex figurePresentation center">
       <img src="../assets/Logo.png" alt="Le logo de Marina Hantz Translation" />
-      <figcaption class="textLogo">{{ $t("textLogo") }}</figcaption>
+      <figcaption class="textLogo">{{ $t("acceuil.textLogo") }}</figcaption>
     </figure>
-    <h1 class="presentation">{{ $t("presentationTraduction") }}</h1>
+    <h1 class="presentation">{{ $t("acceuil.presentationTraduction") }}</h1>
   </div>
 </template>
 

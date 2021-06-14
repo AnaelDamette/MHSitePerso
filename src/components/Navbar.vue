@@ -1,10 +1,10 @@
 <template>
   <div class="localeChange">
     <div class="headbar">
-      <a data-scroll-to href="#ancreHome"><p>Home</p></a>
-      <a data-scroll-to href="#ancreServices"><p>services</p></a>
-      <a data-scroll-to href="#ancreTestimonial"><p>testimonial</p></a>
-      <a data-scroll-to href="#ancreAbout"><p>about</p></a>
+      <a data-scroll-to href="#ancreHome"><p>{{ $t("acceuil.acceuil") }}</p></a>
+      <a data-scroll-to href="#ancreServices"><p>{{ $t("service.service") }}</p></a>
+      <a data-scroll-to href="#ancreTestimonial"><p>{{ $t("temoignage.temoignage") }}</p></a>
+      <a data-scroll-to href="#ancreAbout"><p>{{ $t("about.about") }}</p></a>
       <a data-scroll-to href="#ancreContact"><p>contact</p></a>
     </div>
     <select v-model="$i18n.locale">
