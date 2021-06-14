@@ -1,41 +1,38 @@
 {
   "message": "Salut lume i18n !!",
   "acceuil": {
-    "acceuil" : "ACASĂ",
+    "acceuil": "ACASĂ",
     "textLogo": "Cuvintele mele pentru a vă da o voce",
     "presentationTraduction": "Traducere profesională din spaniolă, engleză și română în franceză."
   },
-
   "service": {
-    "service" : "SERVICII",
-    "titreService" : "De ce să lucrezi cu mine?",
-    "listPourquoiTravailler" : {
-      "1" : "Contactul direct cu traducătorul vă va asigura reactivitate, eficiență și control al costurilor",
-      "2" : "Vă garantez traduceri de calitate care țin cont de așteptările dumneavoastră precise",
-      "3" : "Proiectele dumneavoastră vor fi realizate în timp util",
-      "4" : "Îmi voi pune experiența și pasiunea în slujba cauzelor care vă animă"
+    "service": "SERVICII",
+    "titreService": "De ce să lucrezi cu mine?",
+    "listPourquoiTravailler": {
+      "1": "Contactul direct cu traducătorul vă va asigura reactivitate, eficiență și control al costurilor",
+      "2": "Vă garantez traduceri de calitate care țin cont de așteptările dumneavoastră precise",
+      "3": "Proiectele dumneavoastră vor fi realizate în timp util",
+      "4": "Îmi voi pune experiența și pasiunea în slujba cauzelor care vă animă"
     },
-    "traductionList" : {
+    "traductionList": {
       "titre": "Traduceți-vă documentele, aplicațiile, broșurile, cărțile, site-ul web, materialele educaționale ... în franceză.",
-      "1" : "Traducător nativ",
-      "2" : "Master în traducere",
-      "3" : "Diplôme en formation musicale",
-      "4" : "Sensibilitate interculturală"
+      "1": "Traducător nativ",
+      "2": "Master în traducere",
+      "3": "Diplôme en formation musicale",
+      "4": "Sensibilitate interculturală"
     },
-    "soustitreList" : {
-      "titre" : "Subtitrați conținutul audiovizual (canal Youtube, serial web, program TV...)",
-      "1" : "Adaptare culturală",
-      "2" : "Respectarea cerințelor",
-      "3" : "Profesionalism"
+    "soustitreList": {
+      "titre": "Subtitrați conținutul audiovizual (canal Youtube, serial web, program TV...)",
+      "1": "Adaptare culturală",
+      "2": "Respectarea cerințelor",
+      "3": "Profesionalism"
     },
-    "correctionList" : {
-      "titre" : "Corectați-vă conținutul în limba franceză și adaptați-l la publicul țintă. Nu lăsați o greșeală să vă strice proiectul !",
-      "1" : "Cunoașterea profundă a limbii și culturii franceze",
-      "2" : "Asigurați calitatea conținutului"
+    "correctionList": {
+      "titre": "Corectați-vă conținutul în limba franceză și adaptați-l la publicul țintă. Nu lăsați o greșeală să vă strice proiectul !",
+      "1": "Cunoașterea profundă a limbii și culturii franceze",
+      "2": "Asigurați calitatea conținutului"
     }
   },
-
-
   "temoignage": {
     "temoignage": "testimoniale",
     "listeTemoignage": {
@@ -53,70 +50,67 @@
       }
     }
   },
-
-
-  "about" : {
-    "about" : "Despre mine",
-    "titre" : {
-      "hello" : "Hello",
-      "enchantee" : "nice to meet you !"
+  "about": {
+    "about": "Despre mine",
+    "titre": {
+      "hello": "Bonjour,",
+      "enchantee": "încântată de cunoștință!"
     },
-    "texte" : {
-      "maj" : {
-        "marina": "Marina",
-        "traductionPays" : {
-          "anglais" : "English",
-          "espagnols" : "Spanish",
-          "romanian" : "Romanian",
-          "francais" : "Français"
+    "texte": {
+      "maj": {
+        "marina": " Marina",
+        "traductionPays": {
+          "anglais": "engleză, ",
+          "espagnols": "spaniolă ",
+          "romanian": "română",
+          "francais": "franceză"
         },
-        "et" : "and",
-        "international" : "international development",
-        "art" : {
-          "art" : "art",
-          "musicienne" : "musician",
-          "danse" : "dancer", 
-          "artiste" : "amateur artist, "
+        "et": "și",
+        "international": "dezvoltare internațională ",
+        "art": {
+          "art": "arte ",
+          "musicienne": "muzician",
+          "danse": "dansator",
+          "artiste": "artist amator, "
         },
-        "contact" : {
-          "contact" : "contact me!",
-          "savoirPlus" : "know more",
-          "demandeDevis" : "request a quote"
+        "contact": {
+          "contact": "mă contactați ! ",
+          "savoirPlus": "mai multe ? ",
+          "demandeDevis": "o ofertă "
         }
       },
-      "p1" : {
-        "myname" : "My name is",
-        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
-        "into" : "into ",
-        "specialiste" : "I specialise in",
-        "etMin" : "and",
-        "parenthese" : "(especially music and dance",
-        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
+      "p1": {
+        "myName": "Mă numesc ",
+        "basedIn": ", sunt traducător de limba franceză și sunt stabilită în Mons, Belgia. Traduc din ",
+        "into": "în ",
+        "specialiste": " Sunt specializată în ",
+        "etMin": "și",
+        "parenthese": "(în special muzică și dans)",
+        "qualification": " În ceea ce privește calificările mele, am un masterat în Traductologie de la Universitatea din Mons."
       },
-      "p2" : {
-        "profession" : "I have Chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
-        "iAm" : "I am a ",
-        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
-        "parentheseDance" : "(i have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
-        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
+      "p2": {
+        "profession": "Am ales traducerea ca profesie, dar am multe alte pasiuni care îmi îmbogățesc competențele culturale și lingvistice ; ",
+        "iAm": "sunt ",
+        "parentheseMusique": "(12 ani de harpă, cor și teorie muzicală), ",
+        "parentheseDance": " (dansez salsa și bachata din 2016 și predau din 2020) și, ca ",
+        "enjoyArt": ", îmi place tot ce ține de artele vizuale (fotografie, desen etc.). "
       },
-      "p3" : {
-        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
+      "p3": {
+        "text": "Obiectivul meu principal ? Să vă dau o voce pentru a comunica și a vă împărtăși ideile cu publicul francofon !"
       },
-
-      "p4" : {
-        "would" : "Would you like to ",
-        "orTo" : "Or to ",
-        "hesitate" : "Don't hesite to"
-      }     
+      "p4": {
+        "would": "Doriți să aflați ",
+        "orTo": " Sau să solicitați ",
+        "hesitate": "Nu ezitați să "
+      }
     }
   },
 
 
-
-  "titreContact": "le titre est à traduire en Roumain",
-  "getInTouch": "Get in touch en roumain!",
-  "Ducoup": "tu messages à traduire",
-  "bonjour": "Bonjour, ",
-  "enchanter": "nice to meet you"
+  
+  "contact" : {
+    "contact" : "contact", 
+     "titreContact": "Aveți nevoie de mai multe informații? Doriți să solicitați o ofertă ?",
+    "getInTouch": "Contactați-mă !"
+  }
 }

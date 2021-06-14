@@ -58,65 +58,63 @@
   "about" : {
     "about" : "A propos",
     "titre" : {
-      "hello" : "Hello",
-      "enchantee" : "nice to meet you !"
+      "hello" : "bonjour, ",
+      "enchantee" : "bienvenue sur mon site !"
     },
     "texte" : {
       "maj" : {
-        "marina": "Marina",
+        "marina": " Marina",
         "traductionPays" : {
-          "anglais" : "English",
-          "espagnols" : "Spanish",
-          "romanian" : "Romanian",
-          "francais" : "Français"
+          "anglais" : "l'anglais",
+          "espagnols" : "l'espagnols ",
+          "romanian" : "du roumain",
+          "francais" : "français"
         },
-        "et" : "and",
-        "international" : "international development",
+        "et" : "et",
+        "international" : "le développement international ",
         "art" : {
-          "art" : "art",
-          "musicienne" : "musician",
-          "danse" : "dancer", 
-          "artiste" : "amateur artist, "
+          "art" : "les arts ",
+          "musicienne" : "musicienne",
+          "danse" : "danseuse", 
+          "artiste" : "qu'artiste amateur, "
         },
         "contact" : {
-          "contact" : "contact me!",
-          "savoirPlus" : "know more",
-          "demandeDevis" : "request a quote"
+          "contact" : "me contacter",
+          "savoirPlus" : "savoir plus ?",
+          "demandeDevis" : "devis"
         }
       },
       "p1" : {
-        "myname" : "My name is",
-        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
-        "into" : "into ",
-        "specialiste" : "I specialise in",
-        "etMin" : "and",
-        "parenthese" : "(especially music and dance",
-        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
+        "myName" : "Je m'appelle",
+        "basedIn" : " je suis une traductrice de langue maternelle française basée à Mons, en Belgique. Je traduis de ",
+        "into" : "vers le ",
+        "specialiste" : "Je suis spécialisée dans ",
+        "etMin" : "et",
+        "parenthese" : "(notamment la musique et la danse). ",
+        "qualification" : "En ce qui concerne mes qualifications, je suis titulaire d'un master en traduction de l'Université de Mons."
       },
       "p2" : {
-        "profession" : "I have Chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
-        "iAm" : "I am a ",
-        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
-        "parentheseDance" : "(i have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
-        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
+        "profession" : "J'ai choisi la traduction comme profession, mais j'ai beaucoup d'autres passions qui enrichissent mes compétences culturelles et linguistiques : ",
+        "iAm" : "Je suis une ",
+        "parentheseMusique" : " (12 ans de harpe, chorale et solfège), ",
+        "parentheseDance" : "(je danse la Salsa et la Bachata depuis 2016 et j'enseigne depuis 2020), et en tant ",
+        "enjoyArt" : "j'aime tout ce qui touche aux arts visuels (photographie, dessin, etc.). "
       },
       "p3" : {
-        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
+        "text" : "Mon objectif principal ? Vous donner une voix pour communiquer et partager vos idées avec le public francophone !"
       },
 
       "p4" : {
-        "would" : "Would you like to ",
-        "orTo" : "Or to ",
-        "hesitate" : "Don't hesite to"
+        "would" : "Vous souhaitez en ",
+        "orTo" : "ou demander un  ",
+        "hesitate" : "N'hésitez pas à "
       }     
     }
   },
-
-
-  "titreContact" : "Le titre est à traduire aussi",
-  "getInTouch" : "Get in touche en Français !",
-  "Ducoup" : "tu messages à traduire",
-  "bonjour" : "Bonjour, ",
-  "enchanter" : "Enchanté"
-
+  
+  "contact" : {
+    "contact" : "contact", 
+     "titreContact": "Vous avez besoin de plus d'informations ? Vous souhaitez demander un devis ?",
+    "getInTouch": "Contactez-moi !"
+  }
 }

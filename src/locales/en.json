@@ -58,17 +58,17 @@
     },
     "texte" : {
       "maj" : {
-        "marina": "Marina",
+        "marina": " Marina",
         "traductionPays" : {
           "anglais" : "English",
-          "espagnols" : "Spanish",
+          "espagnols" : "Spanish ",
           "romanian" : "Romanian",
           "francais" : "Français"
         },
         "et" : "and",
-        "international" : "international development",
+        "international" : "international development ",
         "art" : {
-          "art" : "art",
+          "art" : "art ",
           "musicienne" : "musician",
           "danse" : "dancer", 
           "artiste" : "amateur artist, "
@@ -80,7 +80,7 @@
         }
       },
       "p1" : {
-        "myname" : "My name is",
+        "myName" : "My name is",
         "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
         "into" : "into ",
         "specialiste" : "I specialise in",
@@ -107,11 +107,9 @@
     }
   },
 
-
-
-  "titreContact": "Need more information ? Want to request a quote ?",
-  "getInTouch": "Get in touch !",
-  "Ducoup": "tu messages à traduire",
-  "bonjour": "Hello, ",
-  "enchanter": "nice to meet you"
+  "contact" : {
+    "contact" : "contact", 
+     "titreContact": "Need more information ? Want to request a quote ?",
+    "getInTouch": "Get in touch !"
+  }
 }

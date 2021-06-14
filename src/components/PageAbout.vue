@@ -4,25 +4,31 @@
       <img src="../assets/PhotoAbout.png" alt="Une photo de Marina Hantz" />
     </aside>
     <article class="blockAbout">
-      <h2 class="titreAbout"><mark class="clicker">{{ $t("bonjour") }}</mark> {{ $t("enchanter") }}</h2>
+      <h2 class="titreAbout">
+        <mark class="clicker">{{ $t("about.titre.hello") }}</mark>
+        {{ $t("about.titre.enchantee") }}
+      </h2>
       <p>
-        My name is <strong>Marina</strong>, I am a native French translator
-        based in Mons, Belgium. I translate from
-        <strong>English, Spanish, and Romanian</strong> into
-        <strong>French</strong>. I specialise in
-        <strong>international development</strong> and
-        <strong>arts</strong> (espacially music and dance) Concerning my
-        qualifications, I have an MA in Translation Studies from the University
-        of Mons.<br> . I have chosen translation as my profession, but I have many
-        other passions that enrich my cultural and linguistic skills ; I am a
-        <strong>musician</strong> (12 years of harp, choir and music theory), a
-        <strong>dancer</strong> (I have been dancing Salsa and Bachata since
-        2016 and teaching since 2020), and as an
-        <strong>amateur</strong> artist, I enjoy everything about visual arts
-        (photography, drawing, etc.) <br> My main goal ? Giving you a voice to
-        communicate and share your ideas with the French speaking audience !<br>
-        Would you like to <strong>know more</strong> ? Or to
-        <strong>request a quote</strong> ? Don’t hesitate to <a data-scroll-to href="#ancreContact"><strong>contact me !</strong></a>
+        {{ $t("about.texte.p1.myName")
+        }}<strong>{{ $t("about.texte.maj.marina") }}</strong
+        >{{ $t("about.texte.p1.basedIn") }}
+        <strong
+          >{{ $t("about.texte.maj.traductionPays.anglais") }}
+          {{ $t("about.texte.maj.traductionPays.espagnols") }}</strong
+        >{{ $t("about.texte.p1.etMin") }}
+        <strong> {{ $t("about.texte.maj.traductionPays.romanian") }}</strong>
+        {{ $t("about.texte.p1.into") }}
+        <strong>{{ $t("about.texte.maj.traductionPays.francais") }}</strong
+        >. {{ $t("about.texte.p1.specialiste") }}<strong>{{ $t("about.texte.maj.international") }}</strong>{{ $t("about.texte.p1.etMin") }}
+        <strong>{{ $t("about.texte.maj.art.art") }}</strong>{{ $t("about.texte.p1.parenthese") }} {{ $t("about.texte.p1.qualification") }}<br />
+        {{ $t("about.texte.p2.profession") }} {{ $t("about.texte.p2.iAm") }}
+        <strong>{{ $t("about.texte.maj.art.musicienne") }}</strong>{{ $t("about.texte.p2.parentheseMusique") }}
+        <strong>{{ $t("about.texte.maj.art.danse") }}</strong> {{ $t("about.texte.p2.parentheseDance") }}
+        <strong>{{ $t("about.texte.maj.art.artiste") }}</strong> {{ $t("about.texte.p2.enjoyArt") }}<br />
+        {{ $t("about.texte.p3.text")}}<br />
+       {{ $t("about.texte.p4.would")}}<strong>{{ $t("about.texte.maj.contact.savoirPlus")}}</strong> ? {{ $t("about.texte.p4.orTo")}}
+        <strong>{{ $t("about.texte.maj.contact.demandeDevis")}}{{ $t("")}}</strong> ?{{ $t("about.texte.p4.hesitate")}}
+        <a data-scroll-to href="#ancreContact"><strong>{{ $t("about.texte.maj.contact.contact")}}</strong></a>
       </p>
     </article>
   </section>
