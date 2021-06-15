@@ -22,7 +22,7 @@
       "3" : "Formación académica en música",
       "4" : "Sensibilidad intercultural"
     },
-    "soustitreList" : {
+    "sousTitreList" : {
       "titre" : "Subtitulación de sus contenidos audiovisuales (canal de Youtube, webserie, programa de televisión...)",
       "1" : "Adaptación cultural",
       "2" : "Cumplimiento de los requisitos",
@@ -37,7 +37,7 @@
 
 
   "temoignage": {
-    "temoignage": "testimonios",
+    "temoignage": "Testimonios",
     "listeTemoignage": {
       "temoignage_1": {
         "titre": "",

@@ -23,7 +23,7 @@
       "3" : "Diplôme en formation musicale",
       "4" : "Sensibilité interculturelle"
     },
-    "soustitreList" : {
+    "sousTitreList" : {
       "titre" : "Sous-titrez vos contenus audiovisuels (chaîne Youtube, websérie, programme TV...)",
       "1" : "Adaptation culturelle",
       "2" : "Respect des exigences",
@@ -38,7 +38,7 @@
 
 
   "temoignage": {
-    "temoignage": "témoignages",
+    "temoignage": "Témoignages",
     "listeTemoignage": {
       "temoignage_1": {
         "titre": "Traduction Christmas Carols+",
@@ -58,7 +58,7 @@
   "about" : {
     "about" : "A propos",
     "titre" : {
-      "hello" : "bonjour, ",
+      "hello" : "Bonjour, ",
       "enchantee" : "bienvenue sur mon site !"
     },
     "texte" : {

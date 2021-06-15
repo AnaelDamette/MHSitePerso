@@ -23,7 +23,7 @@
             <p class="lienContact">Marina Hantz</p></a
           >
           <a class="d-flex flexDirectionLigne lienContact" href="">
-            <i class="fas fa-phone-alt lienContact "></i>
+            <i class="fas fa-phone-alt lienContact"></i>
             <p class="lienContact">+336 28 75 31 64</p></a
           >
         </div>

@@ -35,6 +35,9 @@ a {
         color: $textPrimaire;
     }
 }
+li {
+    list-style-type: none;
+}
 img {
     object-fit: cover;
     max-width: 100%;
@@ -88,7 +91,6 @@ img {
 }
 .pageHauteur {
     min-height: 100vh;
-    max-height: 100vh;
     overflow: hidden;
     margin-top: 1vh;
 }

@@ -21,7 +21,7 @@
       "3": "Diplôme en formation musicale",
       "4": "Sensibilitate interculturală"
     },
-    "soustitreList": {
+    "sousTitreList": {
       "titre": "Subtitrați conținutul audiovizual (canal Youtube, serial web, program TV...)",
       "1": "Adaptare culturală",
       "2": "Respectarea cerințelor",
@@ -34,7 +34,7 @@
     }
   },
   "temoignage": {
-    "temoignage": "testimoniale",
+    "temoignage": "Testimoniale",
     "listeTemoignage": {
       "temoignage_1": {
         "titre": "",

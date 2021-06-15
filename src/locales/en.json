@@ -20,7 +20,7 @@
       "2": "MA in Translation",
       "3": "Cros-cultural sensitivity"
     },
-    "soustitreList": {
+    "sousTitreList": {
       "titre": "Subtitle your audiovisual contents (Youtube channel, webseries, TV program ...)",
       "1": "Cultural adaptation",
       "2": "Compliance with the requirements",
@@ -33,7 +33,7 @@
     }
   },
   "temoignage": {
-    "temoignage": "testimonials",
+    "temoignage": "Testimonials",
     "listeTemoignage": {
       "temoignage_1": {
         "titre": "",
