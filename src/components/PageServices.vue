@@ -1,45 +1,45 @@
 <template>
-  <div class="d-flex pageHauteur">
+  <div class="d-flex pageHauteur sectionAbout">
     <div class="d-flex center">
-      <h2>{{ $t("service.titreService") }}</h2>
+      <h2 class="clicker">{{ $t("service.titreService") }}</h2>
       <ul>
-        <li>{{ $t("service.listPourquoiTravailler.1") }}</li>
-        <li>{{ $t("service.listPourquoiTravailler.2") }}</li>
-        <li>{{ $t("service.listPourquoiTravailler.3") }}</li>
-        <li>{{ $t("service.listPourquoiTravailler.4") }}</li>
+        <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.1") }}</li>
+        <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.2") }}</li>
+        <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.3") }}</li>
+        <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.4") }}</li>
       </ul>
     </div>
     <div class="d-flex flexDirectionLigne center">
-      <figure class="d-flex center">
-        <img src="../assets/Translating.png" alt="Icone de Traduction" />
-        <figcaption>
-          <h3>{{ $t("service.traductionList.titre") }}</h3>
+      <figure class="d-flex center figureService">
+        <img src="../assets/Translating.png" alt="Icone de Traduction" class="iconeServices"/>
+        <figcaption class="figcaption">
+          <h3 class="titreList">{{ $t("service.traductionList.titre") }}</h3>
           <ul>
-            <li>{{ $t("service.traductionList.1") }}</li>
-            <li>{{ $t("service.traductionList.2") }}</li>
-            <li>{{ $t("service.traductionList.3") }}</li>
-            <li>{{ $t("service.traductionList.4") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.traductionList.1") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.traductionList.2") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.traductionList.3") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.traductionList.4") }}</li>
           </ul>
         </figcaption>
       </figure>
-      <figure class="d-flex center">
-        <img src="../assets/Subtitling.png" alt="Icone de Subtitling" />
-        <figcaption>
-          <h3>{{ $t("service.sousTitreList.titre") }}</h3>
+      <figure class="d-flex center figureService">
+        <img src="../assets/Subtitling.png" alt="Icone de Subtitling" class="iconeServices" />
+        <figcaption class="figcaption"> 
+          <h3 class="titreList">{{ $t("service.sousTitreList.titre") }}</h3>
           <ul>
-            <li>{{ $t("service.sousTitreList.1") }}</li>
-            <li>{{ $t("service.sousTitreList.2") }}</li>
-            <li>{{ $t("service.sousTitreList.3") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.sousTitreList.1") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.sousTitreList.2") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.sousTitreList.3") }}</li>
           </ul>
         </figcaption>
       </figure>
-      <figure class="d-flex center">
-        <img src="../assets/ProofReading.png" alt="Icone de Proof Reading" />
-        <figcaption>
-          <h3>{{ $t("service.correctionList.titre") }}</h3>
+      <figure class="d-flex center figureService">
+        <img src="../assets/ProofReading.png" alt="Icone de Proof Reading" class="iconeServices"/>
+        <figcaption class="figcaption">
+          <h3 class="titreList">{{ $t("service.correctionList.titre") }}</h3>
           <ul>
-            <li>{{ $t("service.correctionList.1") }}</li>
-            <li>{{ $t("service.correctionList.2") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.correctionList.1") }}</li>
+            <li><i class="fas fa-caret-right puce"></i>{{ $t("service.correctionList.2") }}</li>
           </ul>
         </figcaption>
       </figure>

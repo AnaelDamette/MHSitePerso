@@ -1,12 +1,21 @@
 .iconeServices {
-    max-width: 30%;
     flex-direction: row !important;
     align-items: center;
     margin: 0 5vw 0 5vw;
+    height: 40vh;
+}
+.figcaption {
+    height: 45vh;
 }
 
-.photoService {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.figureService {
+    margin: 2vh;
+
+}
+.puce {
+    margin-right: 5px;
+}
+
+.titreList {
+    margin-bottom: 1em;
 }
