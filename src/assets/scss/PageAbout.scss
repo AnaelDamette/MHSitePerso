@@ -21,5 +21,14 @@
 .titreAbout {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 3vw;
+    font-size:26px;
+    
+
+    @media (min-width:768px) {
+        font-size: 3vw;
+    }
+    @media (min-width:1024px) {
+        font-size: 2.5vw;
+    }
+
 }

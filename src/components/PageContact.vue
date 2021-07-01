@@ -1,7 +1,7 @@
 <template>
   <section class="d-flex pageHauteur pageContact">
-    <h2 class="titreCentre d-flex">{{ $t("contact.titreContact") }}</h2>
-    <article class="carteContact d-flex flexDirectionLigne">
+    <h2 class="textTitre d-flex">{{ $t("contact.titreContact") }}</h2>
+    <article class="carteContact d-flex">
       <figure class="logoContact testBackground">
         <img
           src="../assets/Logo.png"
@@ -9,7 +9,7 @@
         />
       </figure>
       <div class="d-flex center">
-        <h3 class="titreCarteContact">{{ $t("contact.getInTouch") }}</h3>
+        <h3 class="textTitre blanc">{{ $t("contact.getInTouch") }}</h3>
         <div>
           <a
             class="d-flex flexDirectionLigne lienContact"

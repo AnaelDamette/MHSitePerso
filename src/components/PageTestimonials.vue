@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex center pageHauteur sectionAbout">
-    <h2 class="clicker"> {{ $t("temoignage.temoignage") }}</h2>
+    <h2 class="textTitre"> {{ $t("temoignage.temoignage") }}</h2>
     <div class="d-flex flexDirectionLigne">
       <div class="card">
         <h3> {{ $t("temoignage.listeTemoignage.temoignage_1.titre") }}</h3>

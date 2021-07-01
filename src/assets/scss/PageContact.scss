@@ -6,32 +6,62 @@ margin: 2vw;
 }
 .testBackground {
     background-color: white;
-    margin: 15px;
     border-radius: 1em;
-    max-height: 94%;
+    margin-bottom: 2vw;
+    @media (min-width: 656px){
+        flex-direction: row !important;
+        justify-content:space-around ;
+        margin: 0 2vw 0 0;
+    }
+}
+.pageContact {
+    align-items: center;
+    justify-content: center;
 }
 .carteContact {
     background-color: #B698B7;
     border-radius: 1em;
-    height: 60vh;
-    margin: 2vw;
-    justify-content: space-around;  
+    padding: 2vw !important;
+    align-items: center;
+    @media (min-width: 656px){
+        flex-direction: row !important;
+        justify-content:space-around ;
+        margin: 2vw;
+    }
+    @media (min-width: 1024px){
+        width: 950px;
+        height: auto;
+        align-items: center;
+    }
     
 
 }
-.titreCarteContact {
+.blanc {
     color: $primaire;
-    font-size: 5.5vw;
-    margin-bottom: 6vh;
-    font-family: 'Clicker Script';
+    @media (min-width: 1440px) {
+        font-size: 3em!important;
+    }
 }
 
 .logoContact {
     height: 100%;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media (min-width: 425px){
+        height : 30vh;
+    }
+    @media (min-width: 768px){
+        width: auto;
+        height: 50vh;
+    }
     img {
-        height: 100%;
         width: 100%;
+        @media (min-width: 425px){
+            height :100%;
+            width: auto;
+        }
+    
     }
 
 }
@@ -44,7 +74,13 @@ margin: 2vw;
     }
     p, i {
         color: $primaire;
-        font-size: 3vw;
+        font-size: 1.5em;
+        @media (min-width:768px) {
+            font-size:calc(2vw + 1em) ;
+        }
+        @media (min-width:1024px) {
+            font-size: 2em;
+        }
     }
     a {
         align-items: center;

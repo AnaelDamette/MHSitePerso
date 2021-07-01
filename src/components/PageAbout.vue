@@ -5,7 +5,7 @@
     </aside>
     <article class="blockAbout">
       <h2 class="titreAbout">
-        <mark class="clicker">{{ $t("about.titre.hello") }}</mark>
+        <mark class="textTitre">{{ $t("about.titre.hello") }}</mark>
         {{ $t("about.titre.enchantee") }}
       </h2>
       <p>

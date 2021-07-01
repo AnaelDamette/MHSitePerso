@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex pageHauteur sectionAbout">
     <div class="d-flex center">
-      <h2 class="clicker">{{ $t("service.titreService") }}</h2>
+      <h2 class="textTitre">{{ $t("service.titreService") }}</h2>
       <ul>
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.1") }}</li>
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.2") }}</li>
