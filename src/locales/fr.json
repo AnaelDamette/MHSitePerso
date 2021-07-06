@@ -4,14 +4,14 @@
   "acceuil": {
     "acceuil" : "Acceuil",
     "textLogo": "Mes mots pour vous donner une voix",
-    "presentationTraduction": "Traduction professionnelle de l’espagnol, de l’anglais et du roumain vers le français."
+    "presentationTraduction": "Traduction professionnelle de l’espagnol, de l’anglais et du roumain vers le français"
   },
 
   "service": {
     "service" : "services",
     "titreService" : "Pourquoi travailler avec moi ?",
     "listPourquoiTravailler" : {
-      "1" : "Le contact direct avec votre traducteur vous assure réactivité, efficacité et maîtrise des coûts.",
+      "1" : "Le contact direct avec votre traducteur vous assure réactivité, efficacité et maîtrise des coûts",
       "2" : "Je vous garantis des traductions de qualité qui tiennent compte de vos attentes précises ",
       "3" : "Vos projets seront réalisés dans les délais impartis",
       "4" : "Je mettrai mon expérience et ma passion au service des causes qui vous animent"
@@ -31,7 +31,7 @@
     },
     "correctionList" : {
       "titre" : "Faites corriger votre contenu en français et adaptez-le à votre public cible. Ne laissez pas une erreur gâcher votre projet !",
-      "1" : "Connaissance approfondie de la langue et de la culture françaises",
+      "1" : "Connaissance approfondie de la langue et de la culture française",
       "2" : "Garantie de la qualité de votre contenu"
     }
   },
@@ -65,8 +65,8 @@
       "maj" : {
         "marina": " Marina",
         "traductionPays" : {
-          "anglais" : "l'anglais",
-          "espagnols" : "l'espagnols ",
+          "anglais" : "l'anglais,",
+          "espagnols" : "de l'espagnols ",
           "romanian" : "du roumain",
           "francais" : "français"
         },
@@ -79,14 +79,14 @@
           "artiste" : "qu'artiste amateur, "
         },
         "contact" : {
-          "contact" : "me contacter",
-          "savoirPlus" : "savoir plus ?",
+          "contact" : "me contacter !",
+          "savoirPlus" : "savoir plus ",
           "demandeDevis" : "devis"
         }
       },
       "p1" : {
         "myName" : "Je m'appelle",
-        "basedIn" : " je suis une traductrice de langue maternelle française basée à Mons, en Belgique. Je traduis de ",
+        "basedIn" : " et je suis une traductrice de langue maternelle française basée à Mons, en Belgique. Je traduis de ",
         "into" : "vers le ",
         "specialiste" : "Je suis spécialisée dans ",
         "etMin" : "et",
@@ -95,7 +95,7 @@
       },
       "p2" : {
         "profession" : "J'ai choisi la traduction comme profession, mais j'ai beaucoup d'autres passions qui enrichissent mes compétences culturelles et linguistiques : ",
-        "iAm" : "Je suis une ",
+        "iAm" : "je suis une ",
         "parentheseMusique" : " (12 ans de harpe, chorale et solfège), ",
         "parentheseDance" : "(je danse la Salsa et la Bachata depuis 2016 et j'enseigne depuis 2020), et en tant ",
         "enjoyArt" : "j'aime tout ce qui touche aux arts visuels (photographie, dessin, etc.). "
@@ -106,7 +106,7 @@
 
       "p4" : {
         "would" : "Vous souhaitez en ",
-        "orTo" : "ou demander un  ",
+        "orTo" : "Ou demander un  ",
         "hesitate" : "N'hésitez pas à "
       }     
     }

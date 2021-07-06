@@ -3,7 +3,7 @@
   "acceuil": {
     "acceuil": "ACASĂ",
     "textLogo": "Cuvintele mele pentru a vă da o voce",
-    "presentationTraduction": "Traducere profesională din spaniolă, engleză și română în franceză."
+    "presentationTraduction": "Traducere profesională din spaniolă, engleză și română în franceză"
   },
   "service": {
     "service": "SERVICII",
@@ -18,7 +18,7 @@
       "titre": "Traduceți-vă documentele, aplicațiile, broșurile, cărțile, site-ul web, materialele educaționale ... în franceză.",
       "1": "Traducător nativ",
       "2": "Master în traducere",
-      "3": "Diplôme en formation musicale",
+      "3": "",
       "4": "Sensibilitate interculturală"
     },
     "sousTitreList": {
@@ -38,7 +38,7 @@
     "listeTemoignage": {
       "temoignage_1": {
         "titre": "",
-        "texte": "Marina Hantz este traducătoarea în limba franceză a aplicației pentru smartphone și tabletă \"Christmas Carols+\". Cu mare dăruire, ea a lucrat în domeniul lingvistic al noilor media, precum și în cel al muzicii. Apreciez angajamentul personal în tratarea chestiunilor hermeneutice. Corespondența amabilă a fost o plăcere pentru mine. Vă mulțumesc foarte mult!"
+        "texte": "Marina Hantz este traducătoarea în limba franceză a aplicației pentru smartphone și tabletă \"Christmas Carols+\". Cu mare dăruire, ea a lucrat în domeniul lingvistic al noilor media, precum și în cel al muzicii. Apreciez angajamentul personal în tratarea chestiunilor hermeneutice. Corespondența amabilă a fost o plăcere pentru mine. Vă mulțumesc foarte mult !"
       },
       "temoignage_2": {
         "titre": "",
@@ -54,7 +54,7 @@
     "about": "Despre mine",
     "titre": {
       "hello": "Bonjour,",
-      "enchantee": "încântată de cunoștință!"
+      "enchantee": "încântată de cunoștință !"
     },
     "texte": {
       "maj": {
@@ -69,9 +69,9 @@
         "international": "dezvoltare internațională ",
         "art": {
           "art": "arte ",
-          "musicienne": "muzician",
+          "musicienne": "muzician ",
           "danse": "dansator",
-          "artiste": "artist amator, "
+          "artiste": "artist amator "
         },
         "contact": {
           "contact": "mă contactați ! ",
@@ -85,7 +85,7 @@
         "into": "în ",
         "specialiste": " Sunt specializată în ",
         "etMin": "și",
-        "parenthese": "(în special muzică și dans)",
+        "parenthese": "(în special muzică și dans).",
         "qualification": " În ceea ce privește calificările mele, am un masterat în Traductologie de la Universitatea din Mons."
       },
       "p2": {
@@ -101,7 +101,7 @@
       "p4": {
         "would": "Doriți să aflați ",
         "orTo": " Sau să solicitați ",
-        "hesitate": "Nu ezitați să "
+        "hesitate": " Nu ezitați să "
       }
     }
   },
@@ -110,7 +110,7 @@
   
   "contact" : {
     "contact" : "contact", 
-     "titreContact": "Aveți nevoie de mai multe informații? Doriți să solicitați o ofertă ?",
+     "titreContact": "Aveți nevoie de mai multe informații ? Doriți să solicitați o ofertă ?",
     "getInTouch": "Contactați-mă !"
   }
 }

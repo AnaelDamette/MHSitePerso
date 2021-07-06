@@ -2,14 +2,14 @@
   <div class="d-flex pageHauteur sectionAbout">
     <div class="d-flex center">
       <h2 class="textTitre">{{ $t("service.titreService") }}</h2>
-      <ul>
+      <ul class="listService">
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.1") }}</li>
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.2") }}</li>
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.3") }}</li>
         <li><i class="fas fa-long-arrow-alt-right puce"> </i>{{ $t("service.listPourquoiTravailler.4") }}</li>
       </ul>
     </div>
-    <div class="d-flex flexDirectionLigne center">
+    <div class="d-flex flexDirectionService center">
       <figure class="d-flex center figureService">
         <img src="../assets/Translating.png" alt="Icone de Traduction" class="iconeServices"/>
         <figcaption class="figcaption">

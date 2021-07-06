@@ -10,7 +10,6 @@
 
 .figureService {
     margin: 2vh;
-
 }
 .puce {
     margin-right: 5px;
@@ -18,4 +17,13 @@
 
 .titreList {
     margin-bottom: 1em;
+}
+.listService {
+    padding: 1em;
+}
+
+.flexDirectionService {
+    @media (min-width: 1024px) {
+        flex-direction: row !important;
+    }
 }
