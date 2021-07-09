@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex pageHauteur flexDirectionLigne sectionAbout">
+  <section class="d-flex pageHauteur flexDirectionService sectionAbout">
     <aside class="blockAbout blockAboutImg">
       <img src="../assets/PhotoAbout.png" alt="Une photo de Marina Hantz" />
     </aside>
@@ -8,7 +8,7 @@
         <mark class="textTitre">{{ $t("about.titre.hello") }}</mark>
         {{ $t("about.titre.enchantee") }}
       </h2>
-      <p>
+      <p class="textPresentation">
         {{ $t("about.texte.p1.myName")
         }}<strong>{{ $t("about.texte.maj.marina") }}</strong
         >{{ $t("about.texte.p1.basedIn") }}

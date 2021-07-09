@@ -1,13 +1,16 @@
 <template>
   <div class="localeChange">
-    <div class="headbar">
+    <div class="toggle_btn" v-on:click="openNav()" v-if="screenSize == true">
+      <span></span>
+    </div>
+    <div class="headbar" >
       <a data-scroll-to href="#ancreHome"
         ><p>{{ $t("acceuil.acceuil") }}</p></a
       >
       <a data-scroll-to href="#ancreServices"
         ><p>{{ $t("service.service") }}</p></a
       >
-      <a data-scroll-to href="#ancreTestimonials"
+      <a v-if="false" data-scroll-to href="#ancreTestimonials"
         ><p>{{ $t("temoignage.temoignage") }}</p></a
       >
       <a data-scroll-to href="#ancreAbout"
@@ -33,5 +36,28 @@ export default class Navbar extends Vue {
   data() {
     return { langs: ["en", "fr", "ro", "sp"] };
   }
+  screenSize = false;
+  openNav() {
+    const nav = document.querySelector(".headbar") as HTMLInputElement;
+    console.log("test :  " + nav);
+    nav.classList.toggle("headbar_open") ;
+  }
+
+  viewportResize(): void {
+    if (screen.width > 768) {
+      this.screenSize = false;
+    } else {
+      this.screenSize = true;
+    }
+  }
+  created() {
+    this.viewportResize();
+  }
+  updated() {
+    this.viewportResize();
+  }
 }
 </script>
+<style scoped>
+
+</style>
