@@ -25,6 +25,8 @@
         <strong>{{ $t("about.texte.maj.art.art") }}</strong
         >{{ $t("about.texte.p1.parenthese") }}
         {{ $t("about.texte.p1.qualification") }}<br />
+      </p>
+      <p class="textPresentation">
         {{ $t("about.texte.p2.profession") }} {{ $t("about.texte.p2.iAm") }}
         <strong>{{ $t("about.texte.maj.art.musicienne") }}</strong
         >{{ $t("about.texte.p2.parentheseMusique") }}
@@ -32,7 +34,9 @@
         {{ $t("about.texte.p2.parentheseDance") }}
         <strong>{{ $t("about.texte.maj.art.artiste") }}</strong>
         {{ $t("about.texte.p2.enjoyArt") }}<br />
-        {{ $t("about.texte.p3.text") }}<br />
+      </p>
+      <p class="textPresentation">{{ $t("about.texte.p3.text") }}<br /></p>
+      <p class="textPresentation">
         {{ $t("about.texte.p4.would")
         }}<strong>{{ $t("about.texte.maj.contact.savoirPlus") }}</strong> ?
         {{ $t("about.texte.p4.orTo") }}

@@ -114,7 +114,7 @@
   
   "contact" : {
     "contact" : "contact", 
-     "titreContact": "Vous avez besoin de plus d'informations ? Vous souhaitez demander un devis ?",
+     "titreContact": "Vous avez besoin de plus d'informations ? Vous souhaitez demander un devis ? ",
     "getInTouch": "Contactez-moi !"
   }
 }
