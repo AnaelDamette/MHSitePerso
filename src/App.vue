@@ -1,11 +1,11 @@
 <template>
   <div id="app" data-scroll-container>
     <div class="d-flex" data-scroll-section>
-      <PagePresentation id="ancreHome" data-scroll  />
-      <PageServices id="ancreServices" data-scroll  />
-      <PageTestimonials v-if="false" id="ancreTestimonials" data-scroll  />
-      <PageAbout id="ancreAbout" data-scroll  />
-      <PageContact id="ancreContact" data-scroll  />
+      <PagePresentation id="ancreHome" data-scroll />
+      <PageServices id="ancreServices" data-scroll />
+      <PageTestimonials v-if="false" id="ancreTestimonials" data-scroll />
+      <PageAbout id="ancreAbout" data-scroll />
+      <PageContact id="ancreContact" data-scroll />
     </div>
     <Navbar />
   </div>

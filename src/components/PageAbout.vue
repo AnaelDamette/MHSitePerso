@@ -44,7 +44,7 @@
           >{{ $t("about.texte.maj.contact.demandeDevis") }}{{ $t("") }}</strong
         >
         ?{{ $t("about.texte.p4.hesitate") }}
-        <a data-scroll-to href="#ancreContact"
+        <a data-scroll-to href="#ancreContact" class="underline"
           ><strong>{{ $t("about.texte.maj.contact.contact") }}</strong></a
         >
       </p>

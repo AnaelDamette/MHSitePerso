@@ -3,20 +3,20 @@
     <div class="toggle_btn" v-on:click="openNav()" v-if="screenSize == true">
       <span></span>
     </div>
-    <div class="headbar" >
-      <a data-scroll-to href="#ancreHome"
+    <div class="headbar">
+      <a data-scroll-to href="#ancreHome" class="underline"
         ><p>{{ $t("acceuil.acceuil") }}</p></a
       >
-      <a data-scroll-to href="#ancreServices"
+      <a data-scroll-to href="#ancreServices" class="underline"
         ><p>{{ $t("service.service") }}</p></a
       >
-      <a v-if="false" data-scroll-to href="#ancreTestimonials"
+      <a v-if="false" data-scroll-to href="#ancreTestimonials" class="underline"
         ><p>{{ $t("temoignage.temoignage") }}</p></a
       >
-      <a data-scroll-to href="#ancreAbout"
+      <a data-scroll-to href="#ancreAbout" class="underline"
         ><p>{{ $t("about.about") }}</p></a
       >
-      <a data-scroll-to href="#ancreContact"
+      <a data-scroll-to href="#ancreContact" class="underline"
         ><p>{{ $t("contact.contact") }}</p></a
       >
     </div>
@@ -39,8 +39,9 @@ export default class Navbar extends Vue {
   screenSize = false;
   openNav() {
     const nav = document.querySelector(".headbar") as HTMLInputElement;
-    console.log("test :  " + nav);
-    nav.classList.toggle("headbar_open") ;
+    const btn = document.querySelector(".toggle_btn") as HTMLInputElement;
+    nav.classList.toggle("headbar_open");
+    btn.classList.toggle("toggle_btn_open");
   }
 
   viewportResize(): void {
@@ -58,6 +59,4 @@ export default class Navbar extends Vue {
   }
 }
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>

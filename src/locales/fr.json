@@ -2,7 +2,7 @@
   "message": "Salut le monde i18n !!",
 
   "acceuil": {
-    "acceuil" : "Acceuil",
+    "acceuil" : "Accueil",
     "textLogo": "Mes mots pour vous donner une voix",
     "presentationTraduction": "Traduction professionnelle de l’espagnol, de l’anglais et du roumain vers le français"
   },
@@ -107,7 +107,7 @@
       "p4" : {
         "would" : "Vous souhaitez en ",
         "orTo" : "Ou demander un  ",
-        "hesitate" : "N'hésitez pas à "
+        "hesitate" : " N'hésitez pas à "
       }     
     }
   },

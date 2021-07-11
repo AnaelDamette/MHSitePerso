@@ -1,17 +1,17 @@
 <template>
   <div class="d-flex center pageHauteur sectionAbout">
-    <h2 class="textTitre"> {{ $t("temoignage.temoignage") }}</h2>
+    <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
     <div class="d-flex flexDirectionLigne">
       <div class="card">
-        <h3> {{ $t("temoignage.listeTemoignage.temoignage_1.titre") }}</h3>
+        <h3>{{ $t("temoignage.listeTemoignage.temoignage_1.titre") }}</h3>
         <p>{{ $t("temoignage.listeTemoignage.temoignage_1.texte") }}</p>
       </div>
       <div class="card">
-        <h3> {{ $t("temoignage.listeTemoignage.temoignage_2.titre") }}</h3>
+        <h3>{{ $t("temoignage.listeTemoignage.temoignage_2.titre") }}</h3>
         <p>{{ $t("temoignage.listeTemoignage.temoignage_2.texte") }}</p>
       </div>
       <div class="card">
-        <h3> {{ $t("temoignage.listeTemoignage.temoignage_3.titre") }}</h3>
+        <h3>{{ $t("temoignage.listeTemoignage.temoignage_3.titre") }}</h3>
         <p>{{ $t("temoignage.listeTemoignage.temoignage_3.texte") }}</p>
       </div>
     </div>
