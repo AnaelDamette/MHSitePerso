@@ -1,42 +1,38 @@
 {
   "message": "Salut le monde i18n !!",
-
   "acceuil": {
-    "acceuil" : "Accueil",
+    "acceuil": "Accueil",
     "textLogo": "Mes mots pour vous donner une voix",
     "presentationTraduction": "Traduction professionnelle de l’espagnol, de l’anglais et du roumain vers le français"
   },
-
   "service": {
-    "service" : "services",
-    "titreService" : "Pourquoi travailler avec moi ?",
-    "listPourquoiTravailler" : {
-      "1" : "Le contact direct avec votre traducteur vous assure réactivité, efficacité et maîtrise des coûts",
-      "2" : "Je vous garantis des traductions de qualité qui tiennent compte de vos attentes précises ",
-      "3" : "Vos projets seront réalisés dans les délais impartis",
-      "4" : "Je mettrai mon expérience et ma passion au service des causes qui vous animent"
+    "service": "services",
+    "titreService": "Pourquoi travailler avec moi ?",
+    "listPourquoiTravailler": {
+      "1": "Le contact direct avec votre traducteur vous assure réactivité, efficacité et maîtrise des coûts",
+      "2": "Je vous garantis des traductions de qualité qui tiennent compte de vos attentes précises ",
+      "3": "Vos projets seront réalisés dans les délais impartis",
+      "4": "Je mettrai mon expérience et ma passion au service des causes qui vous animent"
     },
-    "traductionList" : {
+    "traductionList": {
       "titre": "Traduisez vos documents, applications, brochures, livres, sites web, matériel pédagogique ... en français.",
-      "1" : "Traductrice native",
-      "2" : "Master en traduction",
-      "3" : "Diplôme en formation musicale",
-      "4" : "Sensibilité interculturelle"
+      "1": "Traductrice native",
+      "2": "Master en traduction",
+      "3": "Diplôme en formation musicale",
+      "4": "Sensibilité interculturelle"
     },
-    "sousTitreList" : {
-      "titre" : "Sous-titrez vos contenus audiovisuels (chaîne Youtube, websérie, programme TV...)",
-      "1" : "Adaptation culturelle",
-      "2" : "Respect des exigences",
-      "3" : "Professionnalisme"
+    "sousTitreList": {
+      "titre": "Sous-titrez vos contenus audiovisuels (chaîne Youtube, websérie, programme TV...)",
+      "1": "Adaptation culturelle",
+      "2": "Respect des exigences",
+      "3": "Professionnalisme"
     },
-    "correctionList" : {
-      "titre" : "Faites corriger votre contenu en français et adaptez-le à votre public cible. Ne laissez pas une erreur gâcher votre projet !",
-      "1" : "Connaissance approfondie de la langue et de la culture française",
-      "2" : "Garantie de la qualité de votre contenu"
+    "correctionList": {
+      "titre": "Faites corriger votre contenu en français et adaptez-le à votre public cible. Ne laissez pas une erreur gâcher votre projet !",
+      "1": "Connaissance approfondie de la langue et de la culture française",
+      "2": "Garantie de la qualité de votre contenu"
     }
   },
-
-
   "temoignage": {
     "temoignage": "Témoignages",
     "listeTemoignage": {
@@ -54,67 +50,35 @@
       }
     }
   },
-
-  "about" : {
-    "about" : "A propos",
-    "titre" : {
-      "hello" : "Bonjour, ",
-      "enchantee" : "bienvenue sur mon site !"
+  "about": {
+    "about": "A propos",
+    "titre": {
+      "hello": "Bonjour, ",
+      "enchantee": "bienvenue sur mon site !"
     },
-    "texte" : {
-      "maj" : {
-        "marina": " Marina",
-        "traductionPays" : {
-          "anglais" : "l'anglais,",
-          "espagnols" : "de l'espagnols ",
-          "romanian" : "du roumain",
-          "francais" : "français"
-        },
-        "et" : "et",
-        "international" : "le développement international ",
-        "art" : {
-          "art" : "les arts ",
-          "musicienne" : "musicienne",
-          "danse" : "danseuse", 
-          "artiste" : "qu'artiste amateur, "
-        },
-        "contact" : {
-          "contact" : "me contacter !",
-          "savoirPlus" : "savoir plus ",
-          "demandeDevis" : "devis"
-        }
-      },
-      "p1" : {
-        "myName" : "Je m'appelle",
-        "basedIn" : " et je suis une traductrice de langue maternelle française basée à Mons, en Belgique. Je traduis de ",
-        "into" : "vers le ",
-        "specialiste" : "Je suis spécialisée dans ",
-        "etMin" : "et",
-        "parenthese" : "(notamment la musique et la danse). ",
-        "qualification" : "En ce qui concerne mes qualifications, je suis titulaire d'un master en traduction de l'Université de Mons."
-      },
-      "p2" : {
-        "profession" : "J'ai choisi la traduction comme profession, mais j'ai beaucoup d'autres passions qui enrichissent mes compétences culturelles et linguistiques : ",
-        "iAm" : "je suis une ",
-        "parentheseMusique" : " (12 ans de harpe, chorale et solfège), ",
-        "parentheseDance" : "(je danse la Salsa et la Bachata depuis 2016 et j'enseigne depuis 2020), et en tant ",
-        "enjoyArt" : "j'aime tout ce qui touche aux arts visuels (photographie, dessin, etc.). "
-      },
-      "p3" : {
-        "text" : "Mon objectif principal ? Vous donner une voix pour communiquer et partager vos idées avec le public francophone !"
-      },
-
-      "p4" : {
-        "would" : "Vous souhaitez en ",
-        "orTo" : "Ou demander un  ",
-        "hesitate" : " N'hésitez pas à "
-      }     
-    }
+    "paragraphe1": "Je m'appelle Marina, je suis une traductrice de langue maternelle française basée à Mons, en Belgique. Je traduis de l'anglais, de l'espagnol et du roumain vers le français. Je suis spécialisée dans le développement international et les arts (notamment la musique et la danse). En ce qui concerne mes qualifications, je suis titulaire d'un master en traduction de l'Université de Mons.",
+    "paragraphe2": "J'ai choisi la traduction comme profession, mais j'ai beaucoup d'autres passions qui enrichissent mes compétences culturelles et linguistiques ; je suis musicienne (12 ans de harpe, chorale et solfège), danseuse (je danse la Salsa et la Bachata depuis 2016 et j'enseigne depuis 2020), et en tant qu'artiste amateur, j'aime tout ce qui touche aux arts visuels (photographie, dessin, etc.). ",
+    "paragraphe3": "Mon objectif principal ? Vous donner une voix pour communiquer et partager vos idées avec le public francophone !",
+    "paragraphe4": "Vous souhaitez en savoir plus ? Ou demander un devis ? N'hésitez pas à :  ",
+    "contact" : "me contacter !",
+    "motEnGras": [
+      "Marina",
+      "anglais",
+      "espagnol",
+      "roumain",
+      "développement international",
+      "les arts",
+      "musicienne",
+      "danseuse",
+      "artiste amateur",
+      "savoir plus",
+      "demander un devis",
+      "me contacter !"
+    ]
   },
-  
-  "contact" : {
-    "contact" : "contact", 
-     "titreContact": "Vous avez besoin de plus d'informations ? Vous souhaitez demander un devis ? ",
+  "contact": {
+    "contact": "contact",
+    "titreContact": "Vous avez besoin de plus d'informations ? Vous souhaitez demander un devis ? ",
     "getInTouch": "Contactez-moi !"
   }
 }

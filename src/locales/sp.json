@@ -1,41 +1,38 @@
 {
   "message": "Traduction à rajouter",
   "acceuil": {
-    "acceuil" : "INICIO",
+    "acceuil": "INICIO",
     "textLogo": "Mis palabras para darles voz",
     "presentationTraduction": "Traduzca sus textos del inglés, español y rumano al francés"
   },
-
   "service": {
-    "service" : "SERVICIOS",
-    "titreService" : "¿Por qué trabajar conmigo?",
-    "listPourquoiTravailler" : {
-      "1" : "El contacto directo con su traductor le asegura reactividad, eficacia y control de costes",
-      "2" : "Le garantizo traducciones de calidad que tienen en cuenta sus expectativas precisas",
-      "3" : "Sus proyectos se llevarán a cabo de manera puntual",
-      "4" : "Pondré mi experiencia y mi pasión al servicio de las causas que le impulsan"
+    "service": "SERVICIOS",
+    "titreService": "¿Por qué trabajar conmigo?",
+    "listPourquoiTravailler": {
+      "1": "El contacto directo con su traductor le asegura reactividad, eficacia y control de costes",
+      "2": "Le garantizo traducciones de calidad que tienen en cuenta sus expectativas precisas",
+      "3": "Sus proyectos se llevarán a cabo de manera puntual",
+      "4": "Pondré mi experiencia y mi pasión al servicio de las causas que le impulsan"
     },
-    "traductionList" : {
+    "traductionList": {
       "titre": "Traducción de sus documentos, aplicaciones, folletos, libros, sitios web, materiales educativos... al francés.",
-      "1" : "Traductora nativa",
-      "2" : "Máster en Traducción",
-      "3" : "Formación académica en música",
-      "4" : "Sensibilidad intercultural"
+      "1": "Traductora nativa",
+      "2": "Máster en Traducción",
+      "3": "Formación académica en música",
+      "4": "Sensibilidad intercultural"
     },
-    "sousTitreList" : {
-      "titre" : "Subtitulación de sus contenidos audiovisuales (canal de Youtube, webserie, programa de televisión...)",
-      "1" : "Adaptación cultural",
-      "2" : "Cumplimiento de los requisitos",
-      "3" : "Profesionalidad"
+    "sousTitreList": {
+      "titre": "Subtitulación de sus contenidos audiovisuales (canal de Youtube, webserie, programa de televisión...)",
+      "1": "Adaptación cultural",
+      "2": "Cumplimiento de los requisitos",
+      "3": "Profesionalidad"
     },
-    "correctionList" : {
-      "titre" : "Compruebe su contenido en francés y adáptelo a su público objetivo. ¡No deje que un error arruine su proyecto!",
-      "1" : "Profundo conocimiento de la lengua y la cultura francesas",
-      "2" : "Asegure la calidad de su contenido"
+    "correctionList": {
+      "titre": "Compruebe su contenido en francés y adáptelo a su público objetivo. ¡No deje que un error arruine su proyecto!",
+      "1": "Profundo conocimiento de la lengua y la cultura francesas",
+      "2": "Asegure la calidad de su contenido"
     }
   },
-
-
   "temoignage": {
     "temoignage": "Testimonios",
     "listeTemoignage": {
@@ -53,67 +50,35 @@
       }
     }
   },
-
-  "about" : {
-    "about" : "SOBRE MI",
-    "titre" : {
-      "hello" : "¡Bonjour,",
-      "enchantee" : "encantada de conocerle!"
+  "about": {
+    "about": "SOBRE MI",
+    "titre": {
+      "hello": "¡Bonjour,",
+      "enchantee": "encantada de conocerle!"
     },
-    "texte" : {
-      "maj" : {
-        "marina": " Marina",
-        "traductionPays" : {
-          "anglais" : "inglés",
-          "espagnols" : "español ",
-          "romanian" : "rumano",
-          "francais" : "francés"
-        },
-        "et" : "y",
-        "international" : "desarrollo internacional ",
-        "art" : {
-          "art" : "las artes ",
-          "musicienne" : "música ",
-          "danse" : "bailarina ", 
-          "artiste" : "artista aficionada, "
-        },
-        "contact" : {
-          "contact" : " contacto conmigo. ",
-          "savoirPlus" : "saber más?",
-          "demandeDevis" : "presupuesto "
-        }
-      },
-      "p1" : {
-        "myName" : "Mi nombre es",
-        "basedIn" : ", soy una traductora nativa de francés con sede en Mons, Bélgica. Traduzco del ",
-        "into" : "al ",
-        "specialiste" : "Mis especialidades son el ",
-        "etMin" : "y",
-        "parenthese" : "(especialmente la música y la danza).",
-        "qualification" : "En cuanto a mis cualificaciones, dispongo de un máster en Estudios de Traducción otorgado por la Universidad de Mons."
-      },
-      "p2" : {
-        "profession" : "He elegido la traducción como profesión, pero tengo muchas otras pasiones que enriquecen mis conocimientos culturales y lingüísticos; ",
-        "iAm" : "soy ",
-        "parentheseMusique" : "(12 años de arpa, coro y teoría musical),",
-        "parentheseDance" : "(bailo salsa y bachata desde 2016 y doy clases desde 2020), y como ",
-        "enjoyArt" : "me gusta todo lo relacionado con las artes visuales (fotografía, dibujo, etc.) "
-      },
-      "p3" : {
-        "text" : "¿Mi objetivo principal? ¡Darle una voz para comunicar y compartir sus ideas con el público francófono!"
-      },
-
-      "p4" : {
-        "would" : "¿Desea ",
-        "orTo" : "¿O pedir un ",
-        "hesitate" : "No dude en ponerse en"
-      }     
-    }
+    "paragraphe1": "Mi nombre es Marina, soy una traductora nativa de francés con sede en Mons, Bélgica. Traduzco del inglés, español y rumano al francés. Mis especialidades son el desarrollo internacional y las artes (especialmente la música y la danza). En cuanto a mis cualificaciones, dispongo de un máster en Estudios de Traducción otorgado por la Universidad de Mons.",
+    "paragraphe2": "He elegido la traducción como profesión, pero tengo muchas otras pasiones que enriquecen mis conocimientos culturales y lingüísticos; soy música (12 años de arpa, coro y teoría musical), bailarina (bailo salsa y bachata desde 2016 y doy clases desde 2020), y como artista aficionada, me gusta todo lo relacionado con las artes visuales (fotografía, dibujo, etc.) ",
+    "paragraphe3": "¿Mi objetivo principal? ¡Darle una voz para comunicar y compartir sus ideas con el público francófono!",
+    "paragraphe4": "¿Desea saber más? ¿O pedir un presupuesto? No dude en ponerse en : ",
+    "contact": "contacto conmigo.",
+    "motEnGras": [
+      "Marina",
+      "inglès",
+      "español",
+      "rumano",
+      "francés.",
+      "desarrollo internacional",
+      "artes",
+      "música",
+      "bailarina",
+      "artista aficionada",
+      "saber más",
+      "pedir un presupuesto"
+    ]
   },
-
-  "contact" : {
-    "contact" : "contacto", 
-     "titreContact": "¿Necesita más información? ¿Desea solicitar un presupuesto?",
+  "contact": {
+    "contact": "contacto",
+    "titreContact": "¿Necesita más información? ¿Desea solicitar un presupuesto?",
     "getInTouch": "¡Contáctame!"
   }
 }

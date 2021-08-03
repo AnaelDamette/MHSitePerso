@@ -7,17 +7,7 @@
 @import "./PageTestimonials.scss";
 @import "./locomotive-scroll.scss";
 
-.grostest {
-    position: relative;
-    background-color: red;
-    color: yellow;
-    margin-top: 15vh;
-}
-.grostest2 {
-    position: relative;
-    background-color: grey;
-    margin: 15px;
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -118,7 +108,11 @@ img {
     float: left;
     margin-left: 10px;
     margin-top: 5px;
+    padding: 5px;
     cursor: pointer;
+    background-color: $secondaire;
+    border-radius: 50%;
+    box-shadow: $shadow $secondaire;
 }
 
 .toggle_btn span {
@@ -166,19 +160,21 @@ img {
 .headbar {
     display: flex;
     position: absolute;
-    width: 125px;
-    z-index: 0;
+    width: 100%;
+    height: 60vh;
+    z-index: 1;
     left: 0;
-    top: 0;
+    top: 15vh;
     flex-direction: column;
     justify-content: space-around;
-    align-items: start;
+    align-items: flex-start;
     margin-left: -200px;
     padding: 10px;
     transition-duration: 1s;
+
     @media (min-width: 768px) {
+        top: 0;
         width: auto;
-        align-items: center;
         flex-direction: row;
         margin-left: 0;
         transition-duration: none;
@@ -192,11 +188,26 @@ img {
     }
 }
 .headbar_open {
-    margin-left: 10vw;
+    margin-left: 0vw;
     padding-left: 20px;
     transition-duration: 1s;
     background-color: $secondaire;
-    border-radius: 0 0 1em 1em;
+    box-shadow: $shadow $secondaire;
+    a {
+        padding-left: 30vw;
+    }
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 0;
+    transition-duration: 1s;
+}
+.overlay_open {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 100vw;
+    min-height: 100vh;
+    transition-duration: 1s;
 }
 
 .underline {

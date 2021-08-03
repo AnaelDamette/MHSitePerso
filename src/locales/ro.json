@@ -56,61 +56,29 @@
       "hello": "Bonjour,",
       "enchantee": "încântată de cunoștință !"
     },
-    "texte": {
-      "maj": {
-        "marina": " Marina",
-        "traductionPays": {
-          "anglais": "engleză, ",
-          "espagnols": "spaniolă ",
-          "romanian": "română",
-          "francais": "franceză"
-        },
-        "et": "și",
-        "international": "dezvoltare internațională ",
-        "art": {
-          "art": "arte ",
-          "musicienne": "muzician ",
-          "danse": "dansator",
-          "artiste": "artist amator "
-        },
-        "contact": {
-          "contact": "mă contactați ! ",
-          "savoirPlus": "mai multe ? ",
-          "demandeDevis": "o ofertă "
-        }
-      },
-      "p1": {
-        "myName": "Mă numesc ",
-        "basedIn": ", sunt traducător de limba franceză și sunt stabilită în Mons, Belgia. Traduc din ",
-        "into": "în ",
-        "specialiste": " Sunt specializată în ",
-        "etMin": "și",
-        "parenthese": "(în special muzică și dans).",
-        "qualification": " În ceea ce privește calificările mele, am un masterat în Traductologie de la Universitatea din Mons."
-      },
-      "p2": {
-        "profession": "Am ales traducerea ca profesie, dar am multe alte pasiuni care îmi îmbogățesc competențele culturale și lingvistice ; ",
-        "iAm": "sunt ",
-        "parentheseMusique": "(12 ani de harpă, cor și teorie muzicală), ",
-        "parentheseDance": " (dansez salsa și bachata din 2016 și predau din 2020) și, ca ",
-        "enjoyArt": ", îmi place tot ce ține de artele vizuale (fotografie, desen etc.). "
-      },
-      "p3": {
-        "text": "Obiectivul meu principal ? Să vă dau o voce pentru a comunica și a vă împărtăși ideile cu publicul francofon !"
-      },
-      "p4": {
-        "would": "Doriți să aflați ",
-        "orTo": " Sau să solicitați ",
-        "hesitate": " Nu ezitați să "
-      }
-    }
+    "paragraphe1": "Mă numesc Marina, sunt traducător de limba franceză și sunt stabilită în Mons, Belgia. Traduc din engleză, spaniolă și română în franceză. Sunt specializată în dezvoltare internațională și arte (în special muzică și dans) În ceea ce privește calificările mele, am un masterat în Traductologie de la Universitatea din Mons.",
+    "paragraphe2": "Am ales traducerea ca profesie, dar am multe alte pasiuni care îmi îmbogățesc competențele culturale și lingvistice ; sunt muzician (12 ani de harpă, cor și teorie muzicală), dansator (dansez salsa și bachata din 2016 și predau din 2020) și, ca artist amator, îmi place tot ce ține de artele vizuale (fotografie, desen etc.). ",
+    "paragraphe3": "Obiectivul meu principal ? Să vă dau o voce pentru a comunica și a vă împărtăși ideile cu publicul francofon !",
+    "paragraphe4": "Doriți să aflați mai multe ? Sau să solicitați o ofertă ? Nu ezitați să :",
+    "contact": "mă contactați !",
+    "motEnGras": [
+      "Marina",
+      "engleză",
+      "spaniolă",
+      "română",
+      "franceză.",
+      "dezvoltare internațională",
+      "arte",
+      "muzician",
+      "dansator",
+      "artist amator",
+      "mai multe",
+      "solicitați o ofertă ?"
+    ]
   },
-
-
-  
-  "contact" : {
-    "contact" : "contact", 
-     "titreContact": "Aveți nevoie de mai multe informații ? Doriți să solicitați o ofertă ?",
+  "contact": {
+    "contact": "contact",
+    "titreContact": "Aveți nevoie de mai multe informații ? Doriți să solicitați o ofertă ?",
     "getInTouch": "Contactați-mă !"
   }
 }

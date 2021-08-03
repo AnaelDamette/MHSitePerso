@@ -8,53 +8,67 @@
         <mark class="textTitre">{{ $t("about.titre.hello") }}</mark>
         {{ $t("about.titre.enchantee") }}
       </h2>
-      <p class="textPresentation">
-        {{ $t("about.texte.p1.myName")
-        }}<strong>{{ $t("about.texte.maj.marina") }}</strong
-        >{{ $t("about.texte.p1.basedIn") }}
-        <strong
-          >{{ $t("about.texte.maj.traductionPays.anglais") }}
-          {{ $t("about.texte.maj.traductionPays.espagnols") }}</strong
-        >{{ $t("about.texte.p1.etMin") }}
-        <strong> {{ $t("about.texte.maj.traductionPays.romanian") }}</strong>
-        {{ $t("about.texte.p1.into") }}
-        <strong>{{ $t("about.texte.maj.traductionPays.francais") }}</strong
-        >. {{ $t("about.texte.p1.specialiste")
-        }}<strong>{{ $t("about.texte.maj.international") }}</strong
-        >{{ $t("about.texte.p1.etMin") }}
-        <strong>{{ $t("about.texte.maj.art.art") }}</strong
-        >{{ $t("about.texte.p1.parenthese") }}
-        {{ $t("about.texte.p1.qualification") }}<br />
-      </p>
-      <p class="textPresentation">
-        {{ $t("about.texte.p2.profession") }} {{ $t("about.texte.p2.iAm") }}
-        <strong>{{ $t("about.texte.maj.art.musicienne") }}</strong
-        >{{ $t("about.texte.p2.parentheseMusique") }}
-        <strong>{{ $t("about.texte.maj.art.danse") }}</strong>
-        {{ $t("about.texte.p2.parentheseDance") }}
-        <strong>{{ $t("about.texte.maj.art.artiste") }}</strong>
-        {{ $t("about.texte.p2.enjoyArt") }}<br />
-      </p>
-      <p class="textPresentation">{{ $t("about.texte.p3.text") }}<br /></p>
-      <p class="textPresentation">
-        {{ $t("about.texte.p4.would")
-        }}<strong>{{ $t("about.texte.maj.contact.savoirPlus") }}</strong> ?
-        {{ $t("about.texte.p4.orTo") }}
-        <strong
-          >{{ $t("about.texte.maj.contact.demandeDevis") }}{{ $t("") }}</strong
+      <div class="texteRetouche">
+        <p
+          class="textPresentation"
+          :inner-html.prop="
+            $t('about.paragraphe1') | miseEnGras($t('about.paragraphe1'))
+          "
+        ></p>
+        <p
+          class="textPresentation"
+          :inner-html.prop="
+            $t('about.paragraphe2') | miseEnGras($t('about.paragraphe2'))
+          "
+        ></p>
+        <p
+          class="textPresentation"
+          :inner-html.prop="
+            $t('about.paragraphe3') | miseEnGras($t('about.paragraphe3'))
+          "
+        ></p>
+        <p
+          class="textPresentation"
+          :inner-html.prop="
+            $t('about.paragraphe4') | miseEnGras($t('about.paragraphe4'))
+          "
+        ></p>
+        <a
+          data-scroll-to
+          href="#ancreContact"
+          class="textPresentation d-flex center"
         >
-        ?{{ $t("about.texte.p4.hesitate") }}
-        <a data-scroll-to href="#ancreContact" class="underline"
-          ><strong>{{ $t("about.texte.maj.contact.contact") }}</strong></a
-        >
-      </p>
+          <strong class="textContact underline">
+            {{ $t("about.contact") }}</strong
+          >
+        </a>
+      </div>
     </article>
   </section>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import i18n from "../i18n";
 
-@Component
+@Component({
+  filters: {
+    miseEnGras(test: string) {
+      const motEnGras: any = i18n.t("about.motEnGras");
+
+      for (let i = 0; i < motEnGras.length; i++) {
+        let texteArray = test.split(motEnGras[i]);
+        test = " ";
+
+        for (let j = 0; j < texteArray.length - 1; j++) {
+          test += texteArray[j] + "<strong>" + motEnGras[i] + "</strong>";
+        }
+
+        test += texteArray[texteArray.length - 1];
+      }
+      return test;
+    },
+  },
+})
 export default class PageAbout extends Vue {}
 </script>

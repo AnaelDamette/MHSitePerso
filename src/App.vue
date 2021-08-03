@@ -43,8 +43,6 @@ export default class App extends Vue {
       el: document.querySelector("#app"),
       smooth: true,
     });
-    console.log("scroll", scroll);
-    console.log("Je test si le scroll est bien smooth " + scroll);
   }
 }
 </script>

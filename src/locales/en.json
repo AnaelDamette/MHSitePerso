@@ -50,67 +50,36 @@
       }
     }
   },
-
-  "about" : {
-    "about" : "about",
-    "titre" : {
-      "hello" : "Bonjour,",
-      "enchantee" : "nice to meet you !"
+  "about": {
+    "about": "about",
+    "titre": {
+      "hello": "Bonjour,",
+      "enchantee": "nice to meet you !"
     },
-    "texte" : {
-      "maj" : {
-        "marina": " Marina.",
-        "traductionPays" : {
-          "anglais" : "English,",
-          "espagnols" : "Spanish ",
-          "romanian" : "Romanian",
-          "francais" : "French"
-        },
-        "et" : "and",
-        "international" : "international development ",
-        "art" : {
-          "art" : "art ",
-          "musicienne" : "musician ",
-          "danse" : "dancer", 
-          "artiste" : "amateur artist, "
-        },
-        "contact" : {
-          "contact" : "contact me!",
-          "savoirPlus" : "know more",
-          "demandeDevis" : "request a quote"
-        }
-      },
-      "p1" : {
-        "myName" : "My name is",
-        "basedIn" : " I am a native French translator based in Mons, Belgium. I translate from ",
-        "into" : "into ",
-        "specialiste" : "I specialise in ",
-        "etMin" : "and",
-        "parenthese" : "(especially music and dance",
-        "qualification" : "Concerning my qualifications, I have an MA in Translation Studies from the University of Mons."
-      },
-      "p2" : {
-        "profession" : "I have chosen translation as my profession, but i have many other passions that enrich my cultural and linguistic skills : ",
-        "iAm" : "I am a ",
-        "parentheseMusique" : "(12 years of harp, choir and music theory), a",
-        "parentheseDance" : "(I have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an ",
-        "enjoyArt" : "I enjoy everything about visual arts (photography, drawing, etc.)"
-      },
-      "p3" : {
-        "text" : "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !"
-      },
-
-      "p4" : {
-        "would" : "Would you like to ",
-        "orTo" : "Or to ",
-        "hesitate" : " Don't hesitate to"
-      }     
-    }
+    "paragraphe1": "My name is Marina, I am a native French translator based in Mons, Belgium. I translate from English, Spanish, and Romanian into French. I specialise in international development and arts (espacially music and dance) Concerning my qualifications, I have an MA in Translation Studies from the University of Mons. ",
+    "paragraphe2": "I have chosen translation as my profession, but I have many other passions that enrich my cultural and linguistic skills ; I am a musician (12 years of harp, choir and music theory), a dancer (I have been dancing Salsa and Bachata since 2016 and teaching since 2020), and as an amateur artist, I enjoy everything about visual arts (photography, drawing, etc.) ",
+    "paragraphe3": "My main goal ? Giving you a voice to communicate and share your ideas with the French speaking audience !",
+    "paragraphe4": "Would you like to know more ? Or to request a quote ? Don’t hesite to :",
+    "contact" : "Contact me !",
+    "motEnGras": [
+      "Marina",
+      "English",
+      "Spanish",
+      "Romanian",
+      "French.",
+      "international development",
+      "arts",
+      "musician",
+      "dancer",
+      "amateur artist",
+      "know more",
+      "request a quote",
+      "Contact me !"
+    ]
   },
-
-  "contact" : {
-    "contact" : "contact", 
-     "titreContact": "Need more information ? Want to request a quote ?",
+  "contact": {
+    "contact": "contact",
+    "titreContact": "Need more information ? Want to request a quote ?",
     "getInTouch": "Get in touch !"
   }
 }
