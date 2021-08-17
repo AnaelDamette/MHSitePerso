@@ -80,5 +80,8 @@
     "contact": "contact",
     "titreContact": "Aveți nevoie de mai multe informații ? Doriți să solicitați o ofertă ?",
     "getInTouch": "Contactați-mă !"
+  },
+  "test" : {
+    "test" : "c'est un test !"
   }
 }
