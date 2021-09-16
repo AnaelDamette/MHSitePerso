@@ -3,7 +3,7 @@
     <div class="d-flex" data-scroll-section>
       <PagePresentation id="ancreHome" data-scroll />
       <PageServices id="ancreServices" data-scroll />
-      <PageTestimonials v-if="false" id="ancreTestimonials" data-scroll />
+      <PageTestimonials v-if="true" id="ancreTestimonials" data-scroll />
       <PageAbout id="ancreAbout" data-scroll />
       <PageContact id="ancreContact" data-scroll />
     </div>

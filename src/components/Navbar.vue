@@ -20,7 +20,7 @@
           ><p>{{ $t("service.service") }}</p></a
         >
         <a
-          v-if="false"
+          v-if="true"
           data-scroll-to
           href="#ancreTestimonials"
           class="underline"
