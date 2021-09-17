@@ -41,12 +41,16 @@
         "texte": "Marina Hantz est la traductrice française de l'application pour smartphone et tablette \"Christmas Carols+\". Avec un grand dévouement, elle a travaillé dans le domaine linguistique des nouveaux médias ainsi que de la musique. J'apprécie son engagement personnel dans le traitement des questions herméneutiques. Notre correspondance a été un plaisir pour moi. Merci beaucoup !"
       },
       "temoignage_2": {
-        "titre": "",
-        "texte": ""
+        "titre": "test2",
+        "texte": "test2"
       },
       "temoignage_3": {
-        "titre": "",
-        "texte": ""
+        "titre": "test3",
+        "texte": "test3"
+      },
+      "temoignage_4": {
+        "titre": "test4",
+        "texte": "test4"
       }
     }
   },

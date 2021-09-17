@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     next() {
-      console.log("next")
+      console.log("next");
       this.index++;
       this.direction = "right";
       if (this.index >= this.slidesCount) {
@@ -43,7 +43,7 @@ export default {
       }
     },
     prev() {
-      console.log("prev")
+      console.log("prev");
       this.index--;
       this.direction = "left";
       if (this.index < 0) {
@@ -51,7 +51,7 @@ export default {
       }
     },
     goto(index) {
-      console.log("goto")
+      console.log("goto");
       this.direction = index > this.index ? "right" : "left";
       this.index = index;
     },
@@ -76,6 +76,9 @@ i {
 .carousel {
   position: relative;
   overflow: hidden;
+  height: 80vh;
+  width: 100%;
+  background-color: grey;
 }
 .carouselNav {
   position: absolute;

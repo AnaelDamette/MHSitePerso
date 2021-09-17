@@ -14,7 +14,7 @@ export default {
       if (this.$parent.direction) {
         return "slide-" + this.$parent.direction;
       }
-      return "test"
+      return "test";
     },
     visible() {
       return this.index === this.$parent.index;
