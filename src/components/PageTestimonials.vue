@@ -1,13 +1,15 @@
 <template>
-  <div class="d-flex center pageHauteur sectionAbout">
+  <div class="d-flex center pageHauteur sectionTestimonials">
     <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
     <Carousel>
       <CarouselSlide v-for="n in slides" :key="n" :index="n - 1">
-        <h3>
+        <h3 class="titreSlide">
           {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".titre") }}
         </h3>
 
-        <p>{{ $t("temoignage.listeTemoignage.temoignage_" + n + ".texte") }}</p>
+        <p class="texteSlide">
+          {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".texte") }}
+        </p>
       </CarouselSlide>
     </Carousel>
   </div>

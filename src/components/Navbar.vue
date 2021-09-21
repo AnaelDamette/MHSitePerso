@@ -62,7 +62,7 @@ export default class Navbar extends Vue {
   }
   screenSize = false;
   openNav() {
-    if (screen.width < 768) {
+    if (screen.width < 769) {
       const nav = document.querySelector(".headbar") as HTMLInputElement;
       const btn = document.querySelector(".toggle_btn") as HTMLInputElement;
       const overlay = document.querySelector(".overlay") as HTMLInputElement;

@@ -1,0 +1,64 @@
+i {
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    height: 75vh;
+    width: 100%;
+    background-color: $secondaire;
+     @media(min-width: 1024px) {
+         margin: 0vh 5vw 5vh 5vw;
+         width: 90vw;
+         box-shadow: $shadow;
+     }
+  }
+  .carouselNav {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    color: $textPrimaire;
+  }
+  .carouselPrev {
+    left: 10px;
+    right: auto;
+    height: 63px;
+    width: 63px;
+    z-index: 2;
+  }
+  .carouselNext {
+    right: 10px;
+    left: auto;
+    height: 63px;
+    width: 63px;
+    z-index: 2;
+  }
+  
+  .carouselPagination {
+    position: absolute;
+    top : 95%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    button {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $textPrimaire;
+      border-radius: 50%;
+      margin: 0 2px;
+      border: 2px solid $textPrimaire;
+      border-radius: 50%;
+      &.active {
+        background-color: $secondaire;
+      }
+    }
+  }
+  .carouselSlide {
+      background-color: $secondaire;
+      height: 100%;
+      margin: 5vh 5vw 5vh 5vw;
+  }
