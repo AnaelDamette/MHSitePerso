@@ -37,6 +37,7 @@ import LocomotiveScroll from "locomotive-scroll";
   },
 })
 export default class App extends Vue {
+  
   private scroll = {};
   public mounted(): void {
     this.scroll = new LocomotiveScroll({
@@ -47,4 +48,5 @@ export default class App extends Vue {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

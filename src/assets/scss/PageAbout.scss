@@ -1,46 +1,64 @@
 .sectionAbout {
-    justify-content: space-around;
-    align-items: center;
-    margin: 2vw;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2vw;
 }
 
-.blockAbout { 
-    @media (min-width:1024px) {
-        width: 50%;
+.blockAbout {
+  width: 100%;
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+  position: relative;
 }
-}
+.blockAboutImg, .shadowAnimate {
 
+    left: 20%;
+    height: 70vh;
+    width: 60%;
+    overflow: hidden;
+    border-radius: 6em;
+}
 .blockAboutImg {
-    display: flex;
-    justify-content: center;
-    height: 80vh;
+  z-index: 50;
+  position: absolute;
+  background-color: $primaire;
+}
+.shadowAnimate {
+  z-index: 1;
+  position: relative;
+  background-color: $secondaire;
+}
+#imageAbout {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
 }
 
 #ancreAbout {
-    margin-top: 1vh;
+  margin-top: 1vh;
 }
 
 .titreAbout {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size:26px;
-    
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
 
-    @media (min-width:768px) {
-        font-size: 3vw;
-    }
-    @media (min-width:1024px) {
-        font-size: 2.5vw;
-    }
-
+  @media (min-width: 768px) {
+    font-size: 3vw;
+  }
+  @media (min-width: 1024px) {
+    font-size: 2.5vw;
+  }
 }
 
 .textPresentation {
-    padding: 1em;
-    text-align: justify;
+  padding: 1em;
+  text-align: justify;
 }
 
 .textContact {
-    font-size: 1.5rem;
-    text-align: center;
+  font-size: 1.5rem;
+  text-align: center;
 }

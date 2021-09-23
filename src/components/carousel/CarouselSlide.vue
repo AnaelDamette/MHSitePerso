@@ -1,6 +1,8 @@
 <template>
   <transition :name="transition">
-    <div v-show="visible" class="d-flex center carouselSlide"><slot></slot></div>
+    <div v-show="visible" class="d-flex center carouselSlide">
+      <slot></slot>
+    </div>
   </transition>
 </template>
 
