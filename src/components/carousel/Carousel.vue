@@ -2,11 +2,11 @@
   <div class="carousel" v-touch:swipe.left="next" v-touch:swipe.right="prev">
     <slot></slot>
     <button class="carouselNav carouselNext" @click.prevent="next">
-      <i class="far fa-arrow-alt-circle-right d-flex center"></i>
+      <i class="far fa-arrow-alt-circle-right d-flex center iCarousel"></i>
     </button>
 
     <button class="carouselNav carouselPrev" @click.prevent="prev">
-      <i class="far fa-arrow-alt-circle-left d-flex center"></i>
+      <i class="far fa-arrow-alt-circle-left d-flex center iCarousel"></i>
     </button>
     <div class="carouselPagination">
       <button

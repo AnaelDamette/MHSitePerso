@@ -17,9 +17,10 @@ margin: 2vw;
 .pageContact {
     align-items: center;
     justify-content: center;
+    background-color: $secondaire;
 }
 .carteContact {
-    background-color: #B698B7;
+    background-color: $couleurTertiaire;
     border-radius: 1em;
     padding: 2vw !important;
     align-items: center;

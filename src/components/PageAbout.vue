@@ -135,9 +135,9 @@ export default class PageAbout extends Vue {
       this.speedDivider
     );
 
-    imageAbout.style.transform = `scale(1.09) translate(${
+    imageAbout.style.transform = ` translate(${
       this.boxOffsetX / 2
-    }px, ${-this.boxOffsetY}px)`;
+    }px, ${-this.boxOffsetY }px)`;
     blockImageAbout.style.transform = ` translate(${this.boxOffsetX}px, ${this.boxOffsetY}px)`;
   }
   shadowAnimate() {

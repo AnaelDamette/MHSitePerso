@@ -10,14 +10,14 @@
           href="#ancreHome"
           class="underline"
           v-on:click="openNav()"
-          ><p>{{ $t("acceuil.acceuil") }}</p></a
+          ><p class="textNavbar">{{ $t("acceuil.acceuil") }}</p></a
         >
         <a
           data-scroll-to
           href="#ancreServices"
           class="underline"
           v-on:click="openNav()"
-          ><p>{{ $t("service.service") }}</p></a
+          ><p class="textNavbar">{{ $t("service.service") }}</p></a
         >
         <a
           v-if="true"
@@ -25,21 +25,21 @@
           href="#ancreTestimonials"
           class="underline"
           v-on:click="openNav()"
-          ><p>{{ $t("temoignage.temoignage") }}</p></a
+          ><p clas="textNavbar">{{ $t("temoignage.temoignage") }}</p></a
         >
         <a
           data-scroll-to
           href="#ancreAbout"
           class="underline"
           v-on:click="openNav()"
-          ><p>{{ $t("about.about") }}</p></a
+          ><p clas="textNavbar">{{ $t("about.about") }}</p></a
         >
         <a
           data-scroll-to
           href="#ancreContact"
           class="underline"
           v-on:click="openNav()"
-          ><p>{{ $t("contact.contact") }}</p></a
+          ><p clas="textNavbar">{{ $t("contact.contact") }}</p></a
         >
       </div>
     </div>
