@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex center pageHauteur sectionTestimonials">
+  <div class="d-flex center sectionTestimonials">
     <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
     <Carousel>
       <CarouselSlide v-for="n in slides" :key="n" :index="n - 1">
@@ -35,3 +35,5 @@ export default class PageTestimonials extends Vue {
   }
 }
 </script>
+<style scoped>
+</style>

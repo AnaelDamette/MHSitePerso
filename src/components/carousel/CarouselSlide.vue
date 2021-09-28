@@ -26,10 +26,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 .slide-right-enter-active {
-  animation: slide-rightIn 0.5s;
+  animation: slide-rightIn 1s;
 }
 .slide-right-leave-active {
-  animation: slide-rightOut 0.5s;
+  animation: slide-rightOut 1s;
   position: absolute;
   top: 0;
   left: 0;
@@ -54,10 +54,10 @@ export default {
   }
 }
 .slide-left-enter-active {
-  animation: slide-leftIn 0.5s;
+  animation: slide-leftIn 1s;
 }
 .slide-left-leave-active {
-  animation: slide-leftOut 0.5s;
+  animation: slide-leftOut 1s;
   position: absolute;
   top: 0;
   left: 0;

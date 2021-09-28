@@ -47,7 +47,7 @@ button {
     justify-content: center;
 }
 .localeChange {
-    background-color: $couleurTertiaire;
+    background-color: $backgroundNavbar;
     position: fixed;
     width: 100%;
     display: flex;
@@ -68,7 +68,7 @@ button {
         -moz-appearance: none;
         appearance: none;
         option {
-            background-color: $secondaire;
+            background-color: $backgroundNavbar;
         }
         cursor: pointer;
         outline: none;
@@ -78,9 +78,6 @@ button {
             border-radius: 50%;
         }
     }
-}
-.textNavbar {
-    color: $primaire;
 }
 
 .pageHauteur {
@@ -97,9 +94,8 @@ button {
     font-size: 2em;
     text-transform: capitalize;
     text-align: center;
-    margin: 20px;
+    margin: 5vh 20px 20px 20px;
     background-color: transparent;
-    margin-top: 0;
     @media (min-width: 768px) {
         font-size: calc(3vw + 1em);
     }
@@ -198,7 +194,7 @@ button {
     margin-left: 0vw;
     padding-left: 20px;
     transition-duration: 1s;
-    background-color: $couleurTertiaire;
+    background-color: $quaternaire;
     box-shadow: $shadow $secondaire;
     a {
         padding-left: 30vw;

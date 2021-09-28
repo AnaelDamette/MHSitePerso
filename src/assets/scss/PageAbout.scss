@@ -1,7 +1,8 @@
 .sectionAbout {
   justify-content: space-around;
   align-items: center;
-  margin: 2vw;
+  margin: 2vw 0 2vw 0;
+  background-color: $secondaire;
 }
 
 .blockAbout {
@@ -22,12 +23,12 @@
 .blockAboutImg {
   z-index: 50;
   position: absolute;
-  background-color: $primaire;
+  background-color: $secondaire;
 }
 .shadowAnimate {
   z-index: 1;
   position: relative;
-  background-color: $secondaire;
+  background-color: $primaire;
 }
 #imageAbout {
   position: relative;

@@ -14,6 +14,13 @@
         >
         <a
           data-scroll-to
+          href="#ancreAbout"
+          class="underline"
+          v-on:click="openNav()"
+          ><p clas="textNavbar">{{ $t("about.about") }}</p></a
+        >
+        <a
+          data-scroll-to
           href="#ancreServices"
           class="underline"
           v-on:click="openNav()"
@@ -27,13 +34,7 @@
           v-on:click="openNav()"
           ><p clas="textNavbar">{{ $t("temoignage.temoignage") }}</p></a
         >
-        <a
-          data-scroll-to
-          href="#ancreAbout"
-          class="underline"
-          v-on:click="openNav()"
-          ><p clas="textNavbar">{{ $t("about.about") }}</p></a
-        >
+
         <a
           data-scroll-to
           href="#ancreContact"

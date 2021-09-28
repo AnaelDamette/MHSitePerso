@@ -1,13 +1,13 @@
 <template>
   <div class="carousel" v-touch:swipe.left="next" v-touch:swipe.right="prev">
     <slot></slot>
-    <button class="carouselNav carouselNext" @click.prevent="next">
+    <!-- <button class="carouselNav carouselNext" @click.prevent="next">
       <i class="far fa-arrow-alt-circle-right d-flex center iCarousel"></i>
     </button>
 
     <button class="carouselNav carouselPrev" @click.prevent="prev">
       <i class="far fa-arrow-alt-circle-left d-flex center iCarousel"></i>
-    </button>
+    </button> -->
     <div class="carouselPagination">
       <button
         v-for="n in this.slidesCount"
@@ -41,6 +41,7 @@ export default {
       if (this.index >= this.slidesCount) {
         this.index = 0;
       }
+      
     },
     prev() {
       console.log("prev");
@@ -59,7 +60,9 @@ export default {
 
   mounted() {
     this.slides = this.$children;
+    setInterval(()=> {this.next()}, 5000);
   },
 };
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>

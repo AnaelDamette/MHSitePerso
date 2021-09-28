@@ -2,9 +2,10 @@
   <div id="app" data-scroll-container>
     <div class="d-flex" data-scroll-section>
       <PagePresentation id="ancreHome" data-scroll />
+
+      <PageAbout id="ancreAbout" data-scroll />
       <PageServices id="ancreServices" data-scroll />
       <PageTestimonials v-if="true" id="ancreTestimonials" data-scroll />
-      <PageAbout id="ancreAbout" data-scroll />
       <PageContact id="ancreContact" data-scroll />
     </div>
     <Navbar />
@@ -13,8 +14,6 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
-import HelloI18n from "./components/HelloI18n.vue";
 import Navbar from "./components/Navbar.vue";
 import PagePresentation from "./components/PagePresentation.vue";
 import PageServices from "./components/PageServices.vue";
@@ -26,8 +25,6 @@ import LocomotiveScroll from "locomotive-scroll";
 
 @Component({
   components: {
-    HelloWorld,
-    HelloI18n,
     Navbar,
     PagePresentation,
     PageServices,
