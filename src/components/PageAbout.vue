@@ -1,5 +1,7 @@
 <template>
-  <section class="d-flex pageHauteur flexDirectionService sectionAbout">
+  <section
+    class="d-flex pageHauteur flexDirectionService sectionAbout onScreen"
+  >
     <aside class="blockAbout">
       <div class="blockAboutImg">
         <img
@@ -62,7 +64,7 @@ import i18n from "../i18n";
 @Component({
   filters: {
     miseEnGras(test: string) {
-      const motEnGras: any = i18n.t("about.motEnGras");
+      const motEnGras = i18n.t("about.motEnGras");
 
       for (let i = 0; i < motEnGras.length; i++) {
         let texteArray = test.split(motEnGras[i]);
@@ -88,7 +90,7 @@ export default class PageAbout extends Vue {
   shadowOffsetX = 0;
   shadowOffsetY = 0;
 
-  mousePosition() {
+  mousePosition(): void {
     document.addEventListener("mousemove", (e) => {
       const positionMouseX = (e.clientX / window.innerWidth) * 2 - 1;
       if (positionMouseX >= 0) {
@@ -105,17 +107,17 @@ export default class PageAbout extends Vue {
       }
     });
   }
-  lerp(start: number, end: number, amt: number) {
+  lerp(start: number, end: number, amt: number): number {
     return (1 - amt) * start + amt * end;
   }
-  raf() {
+  raf(): void {
     this.boxAnimate();
     this.shadowAnimate();
   }
-  easefunction(ratio: number) {
+  easefunction(ratio: number): number {
     return ratio * 1;
   }
-  boxAnimate() {
+  boxAnimate(): void {
     const imageAbout = document.querySelector(
       "#imageAbout"
     ) as HTMLInputElement;
@@ -135,12 +137,11 @@ export default class PageAbout extends Vue {
       this.speedDivider
     );
 
-    imageAbout.style.transform = ` translate(${
-      this.boxOffsetX / 2
-    }px, ${-this.boxOffsetY }px)`;
+    imageAbout.style.transform = ` translate(${this.boxOffsetX / 2}px, ${-this
+      .boxOffsetY}px)`;
     blockImageAbout.style.transform = ` translate(${this.boxOffsetX}px, ${this.boxOffsetY}px)`;
   }
-  shadowAnimate() {
+  shadowAnimate(): void {
     const shadowAnimate = document.querySelector(
       ".shadowAnimate"
     ) as HTMLInputElement;
@@ -165,7 +166,7 @@ export default class PageAbout extends Vue {
 
     shadowAnimate.style.transform = ` translate(${this.shadowOffsetX}px, ${this.shadowOffsetY}px)`;
   }
-  mounted() {
+  mounted(): void {
     this.mousePosition();
     setInterval(this.raf, 1000 / 60);
   }

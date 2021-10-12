@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex pageHauteur sectionService pageService">
+  <section class="d-flex pageHauteur sectionService pageService onScreen">
     <div class="d-flex center">
       <h2 class="textTitre">{{ $t("service.titreService") }}</h2>
       <ul class="listService">
@@ -95,7 +95,7 @@
         </figcaption>
       </figure>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">

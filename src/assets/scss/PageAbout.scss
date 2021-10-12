@@ -7,6 +7,7 @@
 
 .blockAbout {
   width: 100%;
+  z-index: 100;
   @media (min-width: 1024px) {
     width: 50%;
   }
@@ -19,6 +20,11 @@
     width: 60%;
     overflow: hidden;
     border-radius: 6em;
+    @media (max-width: 525px) {
+      left : 10%;
+      height: 50vh;
+      width: 80vw;
+    }
 }
 .blockAboutImg {
   z-index: 50;
@@ -45,6 +51,7 @@
   margin-bottom: 20px;
   text-align: center;
   font-size: 26px;
+  z-index: 1000;
 
   @media (min-width: 768px) {
     font-size: 3vw;

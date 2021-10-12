@@ -1,5 +1,9 @@
 <template>
-  <div class="carousel" v-touch:swipe.left="next" v-touch:swipe.right="prev">
+  <div
+    class="carousel d-flex center"
+    v-touch:swipe.left="next"
+    v-touch:swipe.right="prev"
+  >
     <slot></slot>
     <!-- <button class="carouselNav carouselNext" @click.prevent="next">
       <i class="far fa-arrow-alt-circle-right d-flex center iCarousel"></i>
@@ -35,16 +39,13 @@ export default {
   },
   methods: {
     next() {
-      console.log("next");
       this.index++;
       this.direction = "right";
       if (this.index >= this.slidesCount) {
         this.index = 0;
       }
-      
     },
     prev() {
-      console.log("prev");
       this.index--;
       this.direction = "left";
       if (this.index < 0) {
@@ -60,7 +61,9 @@ export default {
 
   mounted() {
     this.slides = this.$children;
-    setInterval(()=> {this.next()}, 5000);
+    setInterval(() => {
+      this.next();
+    }, 5000);
   },
 };
 </script>

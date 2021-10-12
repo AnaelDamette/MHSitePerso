@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex center sectionTestimonials">
+  <section class="d-flex alignTestimonials sectionTestimonials onScreen">
     <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
     <Carousel>
       <CarouselSlide v-for="n in slides" :key="n" :index="n - 1">
@@ -12,7 +12,7 @@
         </p>
       </CarouselSlide>
     </Carousel>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
@@ -28,12 +28,10 @@ import i18n from "../i18n";
   },
 })
 export default class PageTestimonials extends Vue {
-  data() {
+  data(): Record<string, unknown> {
     return {
       slides: Object.keys(i18n.t("temoignage.listeTemoignage")).length,
     };
   }
 }
 </script>
-<style scoped>
-</style>

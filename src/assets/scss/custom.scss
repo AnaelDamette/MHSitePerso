@@ -6,8 +6,6 @@
 @import "./PageContact.scss";
 @import "./PageTestimonials.scss";
 @import "./locomotive-scroll.scss";
-
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +15,7 @@
     font-size: 20px;
     color: $textPrimaire;
 }
+
 a {
     text-decoration: none;
     color: $textPrimaire;
@@ -27,25 +26,31 @@ a {
         outline: none;
     }
 }
+
 li {
     list-style-type: none;
 }
+
 img {
     object-fit: cover;
     max-width: 100%;
 }
+
 button {
     background-color: transparent;
     border: none;
 }
+
 .d-flex {
     display: flex;
     flex-direction: column;
 }
+
 .center {
     align-items: center;
     justify-content: center;
 }
+
 .localeChange {
     background-color: $backgroundNavbar;
     position: fixed;
@@ -89,6 +94,7 @@ button {
 .flexDirectionLigne {
     flex-direction: row !important;
 }
+
 .textTitre {
     font-family: "Clicker Script";
     font-size: 2em;
@@ -103,6 +109,7 @@ button {
         font-size: calc(2.5vw + 1em);
     }
 }
+
 .toggle_btn {
     z-index: 10;
     height: 30px;
@@ -113,7 +120,7 @@ button {
     margin-top: 5px;
     padding: 5px;
     cursor: pointer;
-    background-color: $secondaire;
+    background-color: $backgroundNavbar;
     border-radius: 50%;
     box-shadow: $shadow $secondaire;
 }
@@ -147,6 +154,7 @@ button {
         left: 0;
     }
 }
+
 .toggle_btn_open span {
     transition-duration: 0.8s;
     transform: translateX(-20px);
@@ -160,11 +168,12 @@ button {
         transform: translateY(-12px) translateX(20px) rotate(-135deg);
     }
 }
+
 .headbar {
     display: flex;
     position: absolute;
     width: 100%;
-   // height: 60vh;
+    // height: 60vh;
     z-index: 1;
     left: 0;
     top: 15vh;
@@ -174,7 +183,6 @@ button {
     margin-left: -200px;
     padding: 10px;
     transition-duration: 1s;
-
     @media (min-width: 769px) {
         top: 0;
         width: auto;
@@ -190,21 +198,25 @@ button {
         text-transform: uppercase;
     }
 }
+
 .headbar_open {
     margin-left: 0vw;
     padding-left: 20px;
+    height: 60%;
     transition-duration: 1s;
-    background-color: $quaternaire;
+    background-color: $backgroundNavbar;
     box-shadow: $shadow $secondaire;
     a {
         padding-left: 30vw;
     }
 }
+
 .overlay {
     background-color: rgba(0, 0, 0, 0);
     z-index: 0;
     transition-duration: 1s;
 }
+
 .overlay_open {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
@@ -213,7 +225,8 @@ button {
     transition-duration: 1s;
 }
 
-.underline {
+.underline,
+.underlineActif {
     position: relative;
     &::before {
         content: "";
@@ -226,12 +239,15 @@ button {
         transition: width 1s cubic-bezier(0.25, 1, 0.5, 1);
     }
 }
+
 .underline-white::before {
     background-color: $primaire !important;
 }
+
 @media (hover: hover) and (pointer: fine) {
     .underline:hover::before,
-    .underline:focus::before {
+    .underline:focus::before,
+    .underlineActif::before {
         left: 0;
         right: auto;
         width: 100%;

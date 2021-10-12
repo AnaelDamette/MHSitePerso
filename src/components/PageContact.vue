@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex pageHauteur pageContact">
+  <section class="d-flex pageHauteur pageContact sectionContact onScreen">
     <h2 class="textTitre d-flex">{{ $t("contact.titreContact") }}</h2>
     <article class="carteContact d-flex">
       <figure class="logoContact testBackground">
