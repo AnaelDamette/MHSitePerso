@@ -3,12 +3,17 @@
     <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
     <Carousel>
       <CarouselSlide v-for="n in slides" :key="n" :index="n - 1">
-        <h3 class="titreSlide">
+        <h3 class="titreSlide" hidden>
           {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".titre") }}
         </h3>
 
         <p class="texteSlide">
-          {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".texte") }}
+          <i class="fas fa-quote-left space"></i
+          >{{ $t("temoignage.listeTemoignage.temoignage_" + n + ".texte")
+          }}<i class="fas fa-quote-right space"></i>
+        </p>
+        <p class="textRight">
+          {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".titre") }}
         </p>
       </CarouselSlide>
     </Carousel>

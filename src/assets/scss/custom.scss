@@ -86,7 +86,7 @@ button {
 }
 
 .pageHauteur {
-    min-height: 100vh;
+    min-height: 90vh;
     overflow: hidden;
     padding-top: 3em;
 }
@@ -246,7 +246,6 @@ button {
 
 @media (hover: hover) and (pointer: fine) {
     .underline:hover::before,
-    .underline:focus::before,
     .underlineActif::before {
         left: 0;
         right: auto;

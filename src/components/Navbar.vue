@@ -127,6 +127,9 @@ export default class Navbar extends Vue {
             arrayClass.forEach(function (itemArrayClass: string) {
               if (observable.target.classList.contains(itemArrayClass)) {
                 switch (itemArrayClass as string) {
+                  case "sectionPresentation":
+                    vm.activateUnderline(0);
+                    break;
                   case "sectionAbout":
                     vm.activateUnderline(1);
                     break;
@@ -138,9 +141,6 @@ export default class Navbar extends Vue {
                     break;
                   case "sectionContact":
                     vm.activateUnderline(4);
-                    break;
-                  case "sectionPresentation":
-                    vm.activateUnderline(0);
                     break;
                   default:
                     console.log(

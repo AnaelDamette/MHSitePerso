@@ -1,6 +1,6 @@
 <template>
   <div
-    class="carousel d-flex center"
+    class="carousel d-flex"
     v-touch:swipe.left="next"
     v-touch:swipe.right="prev"
   >

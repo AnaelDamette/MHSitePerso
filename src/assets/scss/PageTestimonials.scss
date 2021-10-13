@@ -1,12 +1,15 @@
 .sectionTestimonials {
-  background-color: $secondaire;
-  justify-content: space-around;
+  background: url("../outdoor.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: auto;
   align-items: center;
   padding: 5vh 0vw 5vh 0vw;
   height: 90vh;
   @media (min-width: 768px) {
     height: 60vh;
-    
+    background-color: transparent;
   }
 }
 .alignTestimonials {
@@ -24,7 +27,7 @@ i.iCarousel {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  background-color: $secondaire;
+  background-color: transparent;
   @media (min-width: 1024px) {
     margin: 0vh 15vw 0vh 15vw;
     width: 90vw;
@@ -63,19 +66,21 @@ i.iCarousel {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: $textPrimaire;
+    background-color: $secondaire;
     border-radius: 50%;
     margin: 0 2px;
     border: 2px solid $textPrimaire;
     border-radius: 50%;
     &.active {
-      background-color: $secondaire;
+      background-color: $textPrimaire;
     }
   }
 }
 .carouselSlide {
-  background-color: $secondaire;
+  background-color: transparent;
+  top: 70%;
   margin: 0vh 3vw 0vh 3vw;
+  align-items: flex-start;
   @media (min-width: 1024px) {
     margin: 0vh 15vw 0vh 15vw;
   }
@@ -83,7 +88,15 @@ i.iCarousel {
 .texteSlide {
   font-style: italic;
 }
+.textRight {
+  text-align: start;
+  margin-top: 20px;
+}
 .quoteCarousel {
   margin: 0 5px 0 5px;
   font-size: 6em;
+}
+.space {
+  margin: 0px 10px 0px 10px;
+  font-size: 1.5em;
 }
