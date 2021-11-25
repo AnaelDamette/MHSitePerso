@@ -22,6 +22,7 @@ margin: 2vw;
 .carteContact {
     background-color: $quaternaire;
     border-radius: 1em;
+    box-shadow: $shadow;
     padding: 2vw !important;
     align-items: center;
     @media (min-width: 656px){

@@ -5,7 +5,7 @@ $textSecondaire: #f3f2c9;
 $quaternaire : #caf4d1;
 $tertiaire : #d6f1c2;
 
-$shadow : 0 0 5px 1px #6f6f6f;
+$shadow : 0 0 8px 1px $primaire - 50;
  // #f3f2c9;
 
 $backgroundNavbar : $tertiaire; 
