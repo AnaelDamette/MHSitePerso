@@ -1,7 +1,9 @@
 <template>
-  <section class="d-flex alignTestimonials sectionTestimonials onScreen">
+  <section
+    class="d-flex alignTestimonials sectionTestimonials onScreen bgTestimonials"
+  >
     <h2 class="textTitre">{{ $t("temoignage.temoignage") }}</h2>
-    <Carousel>
+    <Carousel class="">
       <CarouselSlide v-for="n in slides" :key="n" :index="n - 1">
         <h3 class="titreSlide" hidden>
           {{ $t("temoignage.listeTemoignage.temoignage_" + n + ".titre") }}

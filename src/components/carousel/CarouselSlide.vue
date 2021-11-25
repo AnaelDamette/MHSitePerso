@@ -26,10 +26,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 .slide-right-enter-active {
-  animation: slide-rightIn 1s;
+  animation: slide-rightIn 1.5s;
 }
 .slide-right-leave-active {
-  animation: slide-rightOut 1s;
+  animation: slide-rightOut 1.5s;
   position: absolute;
   top: 0;
   left: 0;
@@ -40,24 +40,28 @@ export default {
 @keyframes slide-rightIn {
   from {
     transform: translateX(100%);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 100;
   }
 }
 @keyframes slide-rightOut {
   from {
     transform: translateX(0);
+    opacity: 100;
   }
   to {
     transform: translateX(-100%);
+    opacity: 0;
   }
 }
 .slide-left-enter-active {
-  animation: slide-leftIn 1s;
+  animation: slide-leftIn 1.5s;
 }
 .slide-left-leave-active {
-  animation: slide-leftOut 1s;
+  animation: slide-leftOut 1.5s;
   position: absolute;
   top: 0;
   left: 0;
@@ -68,17 +72,21 @@ export default {
 @keyframes slide-leftIn {
   from {
     transform: translateX(-100%);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 100;
   }
 }
 @keyframes slide-leftOut {
   from {
     transform: translateX(0);
+    opacity: 100;
   }
   to {
     transform: translateX(100%);
+    opacity: 0;
   }
 }
 </style>

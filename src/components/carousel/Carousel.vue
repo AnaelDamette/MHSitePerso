@@ -63,7 +63,7 @@ export default {
     this.slides = this.$children;
     setInterval(() => {
       this.next();
-    }, 5000);
+    }, 20000);
   },
 };
 </script>

@@ -1,9 +1,5 @@
 .sectionTestimonials {
-  background: url("../outdoor.jpg");
   background-color: transparent;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: auto;
   align-items: center;
   padding: 5vh 0vw 5vh 0vw;
   height: 90vh;
@@ -11,6 +7,13 @@
     height: 60vh;
     background-color: transparent;
   }
+}
+.bgTestimonials {
+  background: url("../outdoor.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
 }
 .alignTestimonials {
   align-items: center;
